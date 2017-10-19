@@ -1,1 +1,1 @@
-# P7Project_MachineLearning
+# ParisVII_Project_MachineLearning
