@@ -5,13 +5,13 @@ In this project, we will use the machine learning techniques learned in the Mast
 
 We will break our work into 3 milestones.
 
-# First milestone
+## First milestone
 Identify the writing style of particular celiberties (politicians/writers). 
 
-# Second milestone
+## Second milestone
 Create a bot that imitates the writing style of the chosen celiberty.
 
-# Final milestone
+## Final milestone
 Scouting on the internet and try to identify the possible plagiarism of the sites -- particularly in the content farm and unauthorized advertisement context.
 
 ## Project Tutor
