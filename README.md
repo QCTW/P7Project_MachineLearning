@@ -6,7 +6,7 @@ In this project, we will use the machine learning techniques learned in the Mast
 We will break our work into 3 milestones.
 
 ## First milestone
-Identify the writing style of particular celiberties (politicians/writers). 
+Identify the writing style of particular celiberties (politicians/writers). Ex: Donlad Trump, Emmanuel Macron, Jean-Luc Mélenchon.
 
 ## Second milestone
 Create a bot that imitates the writing style of the chosen celiberty.
