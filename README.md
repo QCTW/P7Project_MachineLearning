@@ -17,12 +17,12 @@ To see whether our algorithms can work with other languages or not, we would lik
 Scouting on the internet and try to identify the possible plagiarism of the sites -- particularly in the content farm and unauthorized advertisement context.
 
 ## Project Tutor
-- Anne-Claire Haury anneclaire.haury[at]gmail.com
+- Anne-Claire HAURY : anneclaire.haury[at]gmail.com
 
 ## Developpers
-- Quincy HSIEH quincy.tw[at]gmail.com
+- Quincy HSIEH : quincy.tw[at]gmail.com
 
-- YiZhe FAN fanyizhe3015[at]gmail.com
+- YiZhe FAN : fanyizhe3015[at]gmail.com
 
 ## Scrum Board
 To check the project status, go to the scrum board on Trello : https://trello.com/b/18IZGJLz
