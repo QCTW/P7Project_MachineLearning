@@ -9,6 +9,7 @@ We break our works into 3 milestones.
 Identify the English writing style of the particular celebrity (politicians/writers). Ex: [Donlad Trump](https://twitter.com/realDonaldTrump), [Ivanka Trump](https://twitter.com/IvankaTrump), [Ellen DeGeneres](https://twitter.com/TheEllenShow)
 
 [Sprint 1 Issues](https://github.com/QCTW/ParisVII_ProjectMachineLearning/milestone/1)
+
 [Sprint 2 Issues](https://github.com/QCTW/ParisVII_ProjectMachineLearning/milestone/2)
 
 ## Second milestone
