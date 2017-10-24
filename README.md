@@ -6,16 +6,18 @@ In this project, we will use the machine learning techniques learned in the Mast
 We break our works into 3 milestones.
 
 ## First milestone
-Identify the writing style of the particular celebrity (politicians/writers). Ex: [Donlad Trump](https://twitter.com/realDonaldTrump), [Emmanuel Macron](https://twitter.com/emmanuelmacron), [Jean-Luc Mélenchon](https://twitter.com/jlmelenchon?lang=en).
+Identify the English writing style of the particular celebrity (politicians/writers). Ex: [Donlad Trump](https://twitter.com/realDonaldTrump), [Ivanka Trump](https://twitter.com/IvankaTrump), [Ellen DeGeneres](https://twitter.com/TheEllenShow)
 
 ## Second milestone
 Create a bot that imitates the writing style of the chosen celebrity.
+
+To see whether our algorithms can work with other languages or not, we would like to try with another language -- French as an extra test if there is time. We will identify the French writing style of particular celerity. Ex: [Emmanuel Macron](https://twitter.com/emmanuelmacron), [Jean-Luc Mélenchon](https://twitter.com/jlmelenchon?lang=en).
 
 ## Final milestone
 Scouting on the internet and try to identify the possible plagiarism of the sites -- particularly in the content farm and unauthorized advertisement context.
 
 ## Project Tutor
-- Anne-claire Haury anneclaire.haury[at]gmail.com
+- Anne-Claire Haury anneclaire.haury[at]gmail.com
 
 ## Developpers
 - Quincy HSIEH quincy.tw[at]gmail.com
