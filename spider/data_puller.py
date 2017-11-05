@@ -6,6 +6,7 @@ from __future__ import unicode_literals
 from requests_oauthlib import OAuth1
 from urlparse import parse_qs
 
+import sys, getopt
 import requests
 import twitter_oauth
 
@@ -50,6 +51,30 @@ def get_oauth():
 
 if __name__ == "__main__":
     oauth = get_oauth()
-    r = requests.get(url="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=twitterapi&count=2", auth=oauth)
-    print r.json()
-
+    argv = sys.argv[1:]
+    try:
+      opts, args = getopt.getopt(argv,"hn:o:",["name=","output="])
+    except getopt.GetoptError:
+      print 'data_puller.py -n <twitter_screen_name> -o <output_file>'
+      sys.exit(2)
+    
+    t_screen_name = "realDonaldTrump"
+    outputfile = t_screen_name+".csv"
+    for opt, arg in opts:
+      if opt == '-h':
+        print 'data_puller.py -n <twitter_screen_name> -o <output_file>'
+        sys.exit()
+      elif opt in ("-n", "--name"):
+        t_screen_name = arg
+      elif opt in ("-o", "--output"):
+        outputfile = arg
+    
+    r = requests.get(url="https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name="+t_screen_name, auth=oauth)
+    f = open(outputfile, 'w')
+    if(r.status_code == 200):
+	data = r.json()
+	for e in data:
+		txt = e['text']+"\n"
+		f.write(txt.encode('utf-8'))
+		print (e['text'])
+    f.close()
