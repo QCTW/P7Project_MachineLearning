@@ -1,0 +1,8 @@
+clinton-trump-tweets.csv
+https://www.kaggle.com/benhamner/clinton-trump-tweets/data
+
+trump-tweets.csv
+https://www.kaggle.com/doughersak/donald-trump-tweet-statistics/data
+
+trump-tweets-bis.csv
+https://www.kaggle.com/austinvernsonger/donaldtrumptweets/data
