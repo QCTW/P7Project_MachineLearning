@@ -1,3 +1,4 @@
+# This class is used for loading intermediate output file or raw file as an object
 class Data:
 	def __init__(self, key_path):
 		f = open(key_path, 'r')
