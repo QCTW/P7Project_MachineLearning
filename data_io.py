@@ -5,23 +5,27 @@ class Data:
 		self.text = []
 		self.marks = []
 		self.status = False
-		read_count = 0
+		self.count = 0
 		for line in f:
 			one_line = line.strip()
 			if(len(one_line)!=0):
+				self.count+=1
 				index_of_tab = one_line.find('\t')
 				if(index_of_tab>0):
 					first_col = one_line[:index_of_tab]
 					second_col = one_line[index_of_tab+1:].strip()
 					self.text.append(second_col)
 					self.marks.append(first_col)
-					read_count+=1
 					#print("["+first_col+"] "+second_col)
 				else:
 					self.text.append(one_line)
 		f.close()
-		if(read_count>0):
+		if(self.count>0):
 			self.status = True
+	
+	# Return the size of the data and size of column
+	def shape(self):
+		return (self.count, (2 if len(self.marks)>0 else 1) )
 			
 	def get_status(self):
 		return self.status

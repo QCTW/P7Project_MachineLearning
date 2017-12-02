@@ -12,7 +12,7 @@ print("Use sklearn version: "+sklearn.__version__)
 class TfIdf:
 	def __init__(self, clean_data_path):
 		self.data = Data(clean_data_path)
-		print(self.data.text)
+		print("Data size: "+str(self.data.shape()))
 		self.model = TfidfVectorizer(min_df=0.001, stop_words = "english")
 		self.X = self.model.fit_transform(self.data.text)
 		self.features = self.model.get_feature_names()
