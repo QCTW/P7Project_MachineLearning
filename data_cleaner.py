@@ -55,7 +55,7 @@ def remove_reference(data):
         list_refers = re.findall(r'\".*\"', line)
         if list_refers:
             refer_content.append([count, re.findall(r'\".*\"', line)])
-        return_data.append(re.sub(r'\".*\"', '__QUOTE__', line))
+        return_data.append(re.sub(r'\".*\"', ' __QUOTE__ ', line))
         count += 1
     return return_data, refer_content
 

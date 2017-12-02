@@ -13,15 +13,16 @@ class TfIdf:
 	def __init__(self, clean_data_path):
 		self.data = Data(clean_data_path)
 		print("Data size: "+str(self.data.shape()))
-		self.model = TfidfVectorizer(min_df=0.001, stop_words = "english")
-		self.X = self.model.fit_transform(self.data.text)
-		self.features = self.model.get_feature_names()
-		
+		#min_df set to 2 to avoid unique id sequence
+		self.model = TfidfVectorizer(min_df=2, stop_words = "english")
+
 	def get_matrix_x(self):
-		return self.X
+		return self.model.fit_transform(self.data.text)
 	
-	def get_features(self):
-		return self.features
+	def get_vocabularies(self):
+		self.model.fit_transform(self.data.text)
+		return self.model.get_feature_names()
 	
 test = TfIdf("dataset/trump/clean_data.txt")
-print(test.get_features())
+print(test.get_vocabularies())
+print(test.get_matrix_x())
