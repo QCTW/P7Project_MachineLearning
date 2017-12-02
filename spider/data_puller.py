@@ -27,7 +27,7 @@ def setup_oauth():
 
     # Authorize
     authorize_url = AUTHORIZE_URL + resource_owner_key
-    print 'Please go here and authorize: ' + authorize_url
+    print('Please go here and authorize: ' + authorize_url)
 
     verifier = raw_input('Please input the verifier: ')
     oauth = OAuth1(toauth.get_consumer_key(),
@@ -55,14 +55,14 @@ if __name__ == "__main__":
     try:
       opts, args = getopt.getopt(argv,"hn:o:",["name=","output="])
     except getopt.GetoptError:
-      print 'data_puller.py -n <twitter_screen_name> -o <output_file>'
+      print("data_puller.py -n <twitter_screen_name> -o <output_file>")
       sys.exit(2)
     
     t_screen_name = "realDonaldTrump"
     outputfile = t_screen_name+".csv"
     for opt, arg in opts:
       if opt == '-h':
-        print 'data_puller.py -n <twitter_screen_name> -o <output_file>'
+        print("data_puller.py -n <twitter_screen_name> -o <output_file>")
         sys.exit()
       elif opt in ("-n", "--name"):
         t_screen_name = arg
@@ -76,5 +76,5 @@ if __name__ == "__main__":
 	for e in data:
 		txt = e['text']+"\n"
 		f.write(txt.encode('utf-8'))
-		print (e['text'])
+		print(e['text'])
     f.close()
