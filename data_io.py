@@ -16,7 +16,7 @@ class Data:
 					self.text.append(second_col)
 					self.marks.append(first_col)
 					read_count+=1
-					print("["+first_col+"] "+second_col)
+					#print("["+first_col+"] "+second_col)
 				else:
 					self.text.append(one_line)
 		f.close()

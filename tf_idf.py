@@ -14,7 +14,7 @@ class TfIdf:
 		self.data = Data(clean_data_path)
 		print(self.data.text)
 		self.model = TfidfVectorizer(min_df=0.001, stop_words = "english")
-		self.X = self.model.fit_transform(self.data)
+		self.X = self.model.fit_transform(self.data.text)
 		self.features = self.model.get_feature_names()
 		
 	def get_matrix_x(self):
@@ -23,5 +23,5 @@ class TfIdf:
 	def get_features(self):
 		return self.features
 	
-test = TfIdf("dataset/trump/realDonaldTrump.csv")
+test = TfIdf("dataset/trump/clean_data.txt")
 print(test.get_features())
