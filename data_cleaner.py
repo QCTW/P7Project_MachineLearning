@@ -1,6 +1,6 @@
+import os
 import csv
 import re
-
 
 # to read the data_set contain trump and clinton
 def read_mix_set(filename):
@@ -41,7 +41,9 @@ def print_some_line(data, start, end):
 # print(len(data_set))
 # data_set = read_pure_set('trump-tweets.csv')
 # print(len(data_set))
-data_set = read_pure_set_bis('trump-tweets-bis.csv')
+raw_file = "dataset/trump/trump-tweets-bis.csv"
+raw_dir = os.path.dirname(raw_file)
+data_set = read_pure_set_bis(raw_file)
 print(len(data_set))
 print_some_line(data_set, 0, 50)
 
@@ -61,13 +63,13 @@ def remove_reference(data):
 
 
 def write_clean_data(data):
-    with open("../clean_data.txt",'w+') as output:
+    with open(raw_dir+"/clean_data.txt",'w+') as output:
         for line in data:
             output.write(line+'\n')
 
 
 def write_refers(data):
-    with open("../references.txt",'w+') as output:
+    with open(raw_dir+"/references.txt",'w+') as output:
         for line in data:
             tmp_str = str(line[0])
             for refer in line[1]:
