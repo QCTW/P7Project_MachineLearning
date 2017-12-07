@@ -15,22 +15,28 @@ class TfIdf:
 		self.data = Data(clean_data_path)
 		print("Data size: "+str(self.data.shape()))
 		#min_df set to 2 to avoid unique id sequence
-		self.model = TfidfVectorizer(min_df=2, stop_words = "english")
+		self.count_model = CountVectorizer(min_df=2, max_features=5000, ngram_range=(1, 2), stop_words = "english")
 	
-	def get_matrix_x(self):
-		return self.model.fit_transform(self.data.text)
+	def get_X(self):
+		word_counts = self.count_model.fit_transform(self.data.text)
+		return TfidfTransformer().fit_transform(word_counts)
 	
-	def get_vocabularies(self):
-		self.model.fit_transform(self.data.text)
-		return self.model.get_feature_names()
+	def get_vocabulary_counts(self):
+		word_counts = self.count_model.fit_transform(self.data.text)
+		vocabs = self.count_model.get_feature_names()
+		dic_to_tf = {}
+		for i in range(word_counts.shape[1]):
+			feature_count = word_counts.getcol(i).sum()
+			if feature_count>1 :
+				print("TF("+vocabs[i]+")="+str(feature_count))
+				dic_to_tf[vocabs[i]] = feature_count
+		return dic_to_tf
 	
-	def get_tf_count(self):
-		cv = CountVectorizer()
-		word_counts = cv.fit_transform(self.data.text)
-		print(word_counts)
+	def get_tf(self):
+		word_counts = self.count_model.fit_transform(self.data.text)
 		return TfidfTransformer(use_idf=False).fit_transform(word_counts)
 	
 test = TfIdf("dataset/trump/clean_data.txt")
-print(test.get_vocabularies())
-print(test.get_matrix_x())
-print(test.get_tf_count())
+test.get_vocabulary_counts()
+print(test.get_X())
+print(test.get_tf())
