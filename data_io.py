@@ -30,5 +30,14 @@ class Data:
 	def get_status(self):
 		return self.status
 
+	def split(self):
+		return (text.X, marks.Y)
+
+	def get_train_data(self):
+		return (text.X, marks.Y)
+
+	def get_test_data(self):
+		return (test.X, marks.Y)
+
 #test_data = Data("../spider/realDonaldTrump.csv")
 #print(test_data.text)
