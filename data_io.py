@@ -53,14 +53,14 @@ class Data:
 	def get_partition(self):
 		return self.n_partition
 
-test_data = Data("dataset/trump/clean_data.txt")
+test_data = Data("dataset/trump/clinton-trump-tweets_clean.csv")
 print(test_data.count)
 print(test_data.text[0])
 print(test_data.marks[0])
 
 
 X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
-y = np.array([1, 2, 3, 4, 5, 6])
+y = np.array([1, 1, 2, 2, 3, 3])
 
 test_data.cv_partition(X, y, 2)
 print(test_data.n_partition)
