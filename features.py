@@ -17,7 +17,6 @@ def create_csr_matrix(double_array):
 				flat_array.append(arr[j])
 				row_index.append(i)
 				col_index.append(j)
-				print("Append("+str(i)+","+str(j)+")")
 
 	rows = np.array(row_index)
 	cols = np.array(col_index)
@@ -43,4 +42,8 @@ def count_all_capital_words(text_array):
 
 test=["Aaa MAKE", "BBB time", "CCC Shanghai", "DONALD TRUMP"]
 print(count_all_capital_words(test))
+
+test=["AAA", "BBB", "CCC", "DDD"]
+csrm = count_all_capital_words(test)
+print(csrm.todense())
 
