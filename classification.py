@@ -25,6 +25,8 @@ class Classify:
 
 	def get_ridge_clf(self):
 		return RidgeClassifier(tol=1e-2, solver="lsqr")
+	# max_iter and tol are necessary in the new implementation of logistic regression of scikit-learn. 
+	# See https://github.com/scikit-learn/scikit-learn/issues/5022
 	def get_perceptron_clf(self):
 		return Perceptron(max_iter=50, tol=None)
 	def get_passive_aggr_clf(self):
