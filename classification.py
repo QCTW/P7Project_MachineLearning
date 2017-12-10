@@ -68,5 +68,5 @@ class Classify:
 		clf_descr = str(clf).split('(')[0]
 		return clf_descr, score, train_time, test_time
 
-test = Classify()
-print(test.classifiers)
+#test = Classify()
+#print(test.classifiers)
