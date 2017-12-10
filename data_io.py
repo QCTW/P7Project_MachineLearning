@@ -41,8 +41,8 @@ class Data:
 		skf = StratifiedKFold(n_splits = partition)
 		for train_idx, test_idx in skf.split(X_train, y_train):
 			print("Train Index:", train_idx, ",Test Index:", test_idx)
-			# self.train_folds.append(train_idx)
-			# self.test_folds.append(test_idx)
+			self.train_folds.append(train_idx)
+			self.test_folds.append(test_idx)
 
 	#def get_train_data(self):
 	# 	return self.train_folds
@@ -59,9 +59,6 @@ print(test_data.text[0])
 print(test_data.marks[0])
 
 
-X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
-y = np.array([1, 1, 2, 2, 3, 3])
-
-test_data.cv_partition(X, y, 2)
-print(test_data.n_partition)
+# X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
+# y = np.array([1, 1, 2, 2, 3, 3])
 

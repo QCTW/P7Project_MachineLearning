@@ -1,5 +1,7 @@
 import scipy.sparse as sp
 import numpy as np
+import re
+import string
 
 def create_csr_matrix(double_array):
 	shape = (len(double_array), len(double_array[0]))
@@ -28,10 +30,17 @@ def count_all_capital_words(text_array):
 	count_list = []
 	for t in text_array:
 		#TODO: To count the number of terms in FULL capital in each text t
-		count_list.append([1]) #Appends a one element array in each element of count_list       
+		count = 0
+		t.replace('\n', '\t')
+		t = re.sub(r"[" + string.punctuation + "]", "", t)
+		tokens = t.split(' ')
+		for word in tokens:
+			if word.isupper():
+				count += 1
+		count_list.append([count]) #Appends a one element array in each element of count_list
 	return create_csr_matrix(count_list)
 
 
-test=["AAA", "BBB", "CCC", "DDD"]
+test=["Aaa MAKE", "BBB time", "CCC Shanghai", "DONALD TRUMP"]
 print(count_all_capital_words(test))
 
