@@ -1,4 +1,7 @@
 # This class is used for loading intermediate output file or raw file as an object
+from sklearn.model_selection import StratifiedKFold
+import numpy as np
+
 class Data:
 	def __init__(self, key_path):
 		f = open(key_path, 'r')
@@ -6,6 +9,9 @@ class Data:
 		self.marks = []
 		self.status = False
 		self.count = 0
+		self.n_partition = 0
+		self.train_folds = []
+		self.test_folds = []
 		for line in f:
 			one_line = line.strip()
 			if(len(one_line)!=0):
@@ -30,14 +36,32 @@ class Data:
 	def get_status(self):
 		return self.status
 
-	def split(self):
-		return (text.X, marks.Y)
+	def cv_partition(self, X_train, y_train, partition=5):
+		self.n_partition = partition
+		skf = StratifiedKFold(n_splits = partition)
+		for train_idx, test_idx in skf.split(X_train, y_train):
+			print("Train Index:", train_idx, ",Test Index:", test_idx)
+			# self.train_folds.append(train_idx)
+			# self.test_folds.append(test_idx)
 
-	def get_train_data(self):
-		return (text.X, marks.Y)
+	#def get_train_data(self):
+	# 	return self.train_folds
 
-	def get_test_data(self):
-		return (test.X, marks.Y)
+	#def get_test_data(self):
+	# 	return self.test_folds
 
-#test_data = Data("../spider/realDonaldTrump.csv")
-#print(test_data.text)
+	def get_partition(self):
+		return self.n_partition
+
+test_data = Data("dataset/trump/clean_data.txt")
+print(test_data.count)
+print(test_data.text[0])
+print(test_data.marks[0])
+
+
+X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
+y = np.array([1, 2, 3, 4, 5, 6])
+
+test_data.cv_partition(X, y, 2)
+print(test_data.n_partition)
+
