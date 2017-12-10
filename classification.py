@@ -26,9 +26,9 @@ class Classify:
 	def get_ridge_clf(self):
 		return RidgeClassifier(tol=1e-2, solver="lsqr")
 	def get_perceptron_clf(self):
-		return Perceptron(n_iter=50)
+		return Perceptron(max_iter=50, tol=None)
 	def get_passive_aggr_clf(self):
-		return PassiveAggressiveClassifier(max_iter=5, tol=None)
+		return PassiveAggressiveClassifier(max_iter=50, tol=None)
 	def get_k_neighbors_clf(self):
 		return KNeighborsClassifier(n_neighbors=10)
 	def get_rand_forest_clf(self):
