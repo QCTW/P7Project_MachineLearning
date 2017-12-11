@@ -19,7 +19,7 @@ class TfIdf:
 		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_features=1000;max_df="+str(float(1/num_of_class))+";stop_words='english'")
 	
 	def get_Y(self):
-		return self.data.get_calculable_marks()
+		return self.data.get_marks()
 	
 	def get_X_by_vocabulary(self):
 		word_counts = self.count_model.fit_transform(self.data.text)

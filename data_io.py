@@ -35,12 +35,8 @@ class Data:
 			if(self.count>0):
 				self.status = True
 	
-	def get_calculable_marks(self):
-		float_marks = []
-		for t in self.marks:
-			float_marks.append([float(t)])
-		
-		return create_csr_matrix(float_marks)
+	def get_marks(self):
+		return np.array(self.marks)
 	
 	# Return the size of the data and size of column
 	def shape(self):
