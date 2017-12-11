@@ -32,7 +32,7 @@ class TfIdf:
 		self.features = model.get_feature_names()
 		return TfidfTransformer().fit_transform(counts)
 	
-	def get_last_X_call_feature_names(self):
+	def get_feature_names_of_last_get_X_call(self):
 		return self.features
 
 	def get_vocabulary_counts(self):

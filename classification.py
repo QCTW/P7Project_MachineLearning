@@ -56,7 +56,7 @@ def benchmark(clf, x_train, y_train, x_test, y_test):
 	print("Predict time:  %0.3fs" % test_time)
 	
 	score = metrics.accuracy_score(y_test, pred)
-	print("Accuracy:   %0.3f" % score)
+	print("Accuracy:      %0.3f" % score)
 	
 	print("Classification report:")
 	print(metrics.classification_report(y_test, pred, target_names=str(clf)))
