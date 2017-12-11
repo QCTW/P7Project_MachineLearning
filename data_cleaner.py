@@ -67,13 +67,14 @@ def remove_reference(data):
 
         line_text = re.sub(r'\".*\"', ' __QUOTE__ ', line_text)
         line_text = re.sub(r'https://\S*', ' __URL__ ', line_text)
+        line_text = re.sub(r'\n',' ', line_text);
         return_data.append([line[0], line_text])
         count += 1
     return return_data, refer_content
 
 
 def write_clean_data(data):
-    with open(raw_dir+"/clean_data.txt", 'w+') as output:
+    with open(raw_dir+"/clinton-trump-tweets_clean.csv", 'w+') as output:
         for line in data:
             output.write(str(line[0])+'\t'+line[1]+'\n')
 
