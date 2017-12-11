@@ -18,3 +18,10 @@ def create_csr_matrix(double_array):
     cols = np.array(col_index)
     np_array = np.array(flat_array)
     return sp.csr_matrix( (np_array, (rows, cols)),  shape)
+
+
+def merge_csr_matrix_by_col(csr_m1, csr_m2):
+    return sp.hstack((csr_m1, csr_m2))
+
+def merge_csr_matrix_by_row(csr_m1, csr_m2):
+    return sp.vstack((csr_m1, csr_m2))

@@ -29,13 +29,14 @@ class Data:
 				else:
 					self.text.append(one_line)
 		f.close()
-		print("Shape("+str(len(self.text))+","+str(len(self.marks))+")")
-		if(self.count>0):
-			self.status = True
+		if(len(self.text)!=len(self.marks)):
+			raise ValueError("Text X has different size ("+len(self.text)+") than Marks Y ("+len(self.marks)+")! Break-line must be removed from each line of text.")
+		else:
+			if(self.count>0):
+				self.status = True
 	
 	def get_calculable_marks(self):
 		float_marks = []
-		print("get_calculable_marks="+str(len(self.marks)))
 		for t in self.marks:
 			float_marks.append([float(t)])
 		
@@ -44,6 +45,10 @@ class Data:
 	# Return the size of the data and size of column
 	def shape(self):
 		return (self.count, (2 if len(self.marks)>0 else 1) )
+	
+	# Usually this represent how many categories we want to classify
+	def get_num_of_unique_Y(self):
+		return len(list(set(self.marks)))
 			
 	def get_status(self):
 		return self.status
@@ -53,18 +58,19 @@ class Data:
 		self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(x_origin, y_origin, train_size=0.75)
 
 	def get_train_data(self):
-		return self.train_folds
+		return (self.X_train, self.y_train)
 
 	def get_test_data(self):
-		return self.test_folds
+		return (self.X_test, self.y_test)
 
-	def get_partition(self):
-		return self.n_partition
 
-test_data = Data("dataset/trump/clinton-trump-tweets_clean.csv")
-print(test_data.count)
-print(test_data.text[0])
-print(test_data.marks[0])
+####################
+# Unit test section
+####################
+#test_data = Data("dataset/trump/clinton-trump-tweets_clean.csv")
+#print(test_data.count)
+#print(test_data.text[0])
+#print(test_data.marks[0])
 
 # X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
 # y = np.array([1, 1, 2, 2, 3, 3])

@@ -1,2 +1,4 @@
 .*
 *.pyc
+spider/TwitterSpider.pem
+spider/oauth.key
