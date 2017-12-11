@@ -43,7 +43,7 @@ class TfIdf:
 		word_counts = self.count_model.fit_transform(self.data.text)
 		return TfidfTransformer(use_idf=False).fit_transform(word_counts)
 	
-test = TfIdf("dataset/trump/clinton-trump-tweets_clean.csv", 3) #We known that there are 3 categories of data in the files
+test = TfIdf("dataset/trump/clinton-trump-tweets_clean.csv", 2) #We known that there are 3 categories of data in the files
 test.get_vocabulary_counts()
 print(test.get_X_by_vocabulary())
 (bigrams, terms) = test.get_X_by_n_gram(2)
@@ -51,3 +51,6 @@ for i in range(bigrams.shape[1]):
 	tf_sum = bigrams.getcol(i).sum()
 	print("TF("+terms[i]+")="+str(tf_sum))
 print(type(test.get_tf()))
+
+test.data.cv_partition(test.get_X_by_vocabulary, test.data.marks, 3)
+print(test.data.n_partition)
