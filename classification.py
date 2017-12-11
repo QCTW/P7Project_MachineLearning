@@ -41,6 +41,8 @@ class Classify:
 	def benchmark(self, clf, x_train, y_train, x_test, y_test):
 		print('_' * 80)
 		print("Training by: "+clf)
+		
+		#TODO: To add StratifiedKFold to generate different split group and test each split group with train and predict
 		t0 = time()
 		clf.fit(x_train, y_train)
 		train_time = time() - t0

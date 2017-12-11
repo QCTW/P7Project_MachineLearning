@@ -1,6 +1,8 @@
 # This class is used for loading intermediate output file or raw file as an object
-from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import train_test_split
 import numpy as np
+
+from utility import create_csr_matrix
 
 class Data:
 	def __init__(self, key_path):
@@ -9,9 +11,10 @@ class Data:
 		self.marks = []
 		self.status = False
 		self.count = 0
-		self.n_partition = 0
-		self.train_folds = []
-		self.test_folds = []
+		self.X_train = None
+		self.X_test = None
+		self.y_train = None
+		self.y_test = None
 		for line in f:
 			one_line = line.strip()
 			if(len(one_line)!=0):
@@ -26,8 +29,17 @@ class Data:
 				else:
 					self.text.append(one_line)
 		f.close()
+		print("Shape("+str(len(self.text))+","+str(len(self.marks))+")")
 		if(self.count>0):
 			self.status = True
+	
+	def get_calculable_marks(self):
+		float_marks = []
+		print("get_calculable_marks="+str(len(self.marks)))
+		for t in self.marks:
+			float_marks.append([float(t)])
+		
+		return create_csr_matrix(float_marks)
 	
 	# Return the size of the data and size of column
 	def shape(self):
@@ -36,13 +48,9 @@ class Data:
 	def get_status(self):
 		return self.status
 
-	def split(self, x, y, partition=5):
-		self.n_partition = partition
-		skf = StratifiedKFold(n_splits = partition)
-		for train_idx, test_idx in skf.split(x, y):
-			print("Train Index:", train_idx, ",Test Index:", test_idx)
-			self.train_folds.append(train_idx)
-			self.test_folds.append(test_idx)
+	def shuffle_and_split(self, x_origin, y_origin):
+		#skf = StratifiedKFold(n_splits = partition)
+		self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(x_origin, y_origin, train_size=0.75)
 
 	def get_train_data(self):
 		return self.train_folds

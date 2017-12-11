@@ -50,7 +50,10 @@ print(test.get_X_by_vocabulary())
 for i in range(bigrams.shape[1]):
 	tf_sum = bigrams.getcol(i).sum()
 	print("TF("+terms[i]+")="+str(tf_sum))
-print(type(test.get_tf()))
+	
+#print(type(test.get_tf()))
+print("test.get_X_by_vocabulary()="+str(test.get_X_by_vocabulary().shape))
+test.data.shuffle_and_split(test.get_X_by_vocabulary(), test.data.get_calculable_marks())
 
-test.data.cv_partition(test.get_X_by_vocabulary, test.data.marks, 3)
-print(test.data.n_partition)
+print(test.data.X_train)
+print(test.data.y_train)
