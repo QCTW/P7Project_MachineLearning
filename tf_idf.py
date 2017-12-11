@@ -6,7 +6,7 @@ from scipy.stats import ttest_ind
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
-from data_io import *
+from data_io import Data
 
 print("Use sklearn version: "+sklearn.__version__)
 

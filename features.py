@@ -10,9 +10,7 @@ def create_csr_matrix(double_array):
 	flat_array = []
 	for i in range(len(double_array)):
 		arr = double_array[i]
-		print(arr)
 		for j in range(len(arr)):
-			print(arr[j])
 			if(arr[j]!=0):
 				flat_array.append(arr[j])
 				row_index.append(i)
@@ -25,10 +23,9 @@ def create_csr_matrix(double_array):
 
 
 def count_all_capital_words(text_array):
-	# Return a csr_matrix
 	count_list = []
 	for t in text_array:
-		#TODO: To count the number of terms in FULL capital in each text t
+		#To count the number of terms in FULL capital in each text t
 		count = 0
 		t.replace('\n', '\t')
 		t = re.sub(r"[" + string.punctuation + "]", "", t)
@@ -40,10 +37,7 @@ def count_all_capital_words(text_array):
 	return create_csr_matrix(count_list)
 
 
-test=["Aaa MAKE", "BBB time", "CCC Shanghai", "DONALD TRUMP"]
-print(count_all_capital_words(test))
-
-test=["AAA", "BBB", "CCC", "DDD"]
+test=["Make America great again", "MAKE U.S great again", "MAKE Shanghai Great AGAIN", "DONALD.J.TRUMP"]
 csrm = count_all_capital_words(test)
 print(csrm.todense())
 

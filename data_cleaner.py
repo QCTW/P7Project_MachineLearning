@@ -2,7 +2,6 @@ import os
 import csv
 import re
 
-
 # to read the data_set contain trump and clinton
 def read_mix_set(filename):
     data = []
@@ -95,8 +94,3 @@ print_some_line(data_set_pure_text, 0, 50)
 print_some_line(refers, 0, 10)
 write_clean_data(data_set_pure_text)
 write_refers(refers)
-
-
-
-
-

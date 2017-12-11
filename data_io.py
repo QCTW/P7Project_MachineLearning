@@ -36,19 +36,19 @@ class Data:
 	def get_status(self):
 		return self.status
 
-	def cv_partition(self, X_train, y_train, partition=5):
+	def split(self, x, y, partition=5):
 		self.n_partition = partition
 		skf = StratifiedKFold(n_splits = partition)
-		for train_idx, test_idx in skf.split(X_train, y_train):
+		for train_idx, test_idx in skf.split(x, y):
 			print("Train Index:", train_idx, ",Test Index:", test_idx)
 			self.train_folds.append(train_idx)
 			self.test_folds.append(test_idx)
 
-	#def get_train_data(self):
-	# 	return self.train_folds
+	def get_train_data(self):
+		return self.train_folds
 
-	#def get_test_data(self):
-	# 	return self.test_folds
+	def get_test_data(self):
+		return self.test_folds
 
 	def get_partition(self):
 		return self.n_partition
@@ -57,9 +57,6 @@ test_data = Data("dataset/trump/clinton-trump-tweets_clean.csv")
 print(test_data.count)
 print(test_data.text[0])
 print(test_data.marks[0])
-
-test_tfidf = tf_idf.TfIdf("dataset/trump/clinton-trump-tweets_clean.csv")
-print(test_tfidf)
 
 # X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
 # y = np.array([1, 1, 2, 2, 3, 3])
