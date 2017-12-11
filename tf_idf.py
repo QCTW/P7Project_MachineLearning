@@ -16,7 +16,8 @@ class TfIdf:
 		self.num_of_known_class = num_of_class
 		print("Data size: "+str(self.data.shape()))
 		#min_df set to 2 to avoid unique id sequence
-		self.count_model = CountVectorizer(min_df=2, max_df=float(1/2), max_features=1000, stop_words = "english")
+		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
+		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=1000, stop_words = "english")
 	
 	def get_X_by_vocabulary(self):
 		word_counts = self.count_model.fit_transform(self.data.text)

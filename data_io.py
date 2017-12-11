@@ -58,6 +58,8 @@ print(test_data.count)
 print(test_data.text[0])
 print(test_data.marks[0])
 
+test_tfidf = tf_idf.TfIdf("dataset/trump/clinton-trump-tweets_clean.csv")
+print(test_tfidf)
 
 X = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, 10], [11, 12]])
 y = np.array([1, 1, 2, 2, 3, 3])
