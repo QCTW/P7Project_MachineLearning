@@ -58,6 +58,10 @@ class Data:
 
 	def get_test_data(self):
 		return (self.X_test, self.y_test)
+	
+	def add_new_data(self, path_to_new_file):
+		#TODO: To load other dataset into text and marks
+		pass
 
 
 ####################
