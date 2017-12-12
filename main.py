@@ -32,3 +32,16 @@ for (clf, cl_name) in cfs.classifiers:
 # 			benchmark(clf, x_train, y_train, x_test, y_test)
 # 	else:
 	benchmark(clf, x_train, y_train, x_test, y_test)
+
+
+while 1:
+    line = raw_input("Please input a tweet.")
+    if line == 'exit':
+        break
+	elif len(line) <= 10:
+		print("The tweet is too short, length need be more than 10")
+		continue
+	else:
+		clf = cfs.get_rand_forest_clf()
+		result = clf.predict(line)
+		print("This tweet is %s" % result)
