@@ -9,9 +9,9 @@ def read_mix_set(filename):
         reader = csv.DictReader(csv_file)
         for line in reader:
             if line['handle'] == "realDonaldTrump":
-                data.append((1,line['text']))
+                data.append(('DonaldTrump', line['text']))
             else:
-                data.append((0, line['text']))
+                data.append((line['handle'], line['text']))
     return data
 
 
@@ -21,7 +21,7 @@ def read_pure_set(filename):
     with open(filename, newline='') as csv_file:
         reader = csv.DictReader(csv_file)
         for line in reader:
-            data.append(line['Tweet_Text'])
+            data.append(('DonaldTrump', line['Tweet_Text']))
     return data
 
 
@@ -31,22 +31,18 @@ def read_pure_set_bis(filename):
     with open(filename, newline='') as csv_file:
         reader = csv.DictReader(csv_file)
         for line in reader:
-            data.append(line['Text'])
+            data.append(('DonaldTrump', line['Text']))
     return data
 
 
-def print_some_line(data, start, end):
-    for line in data[start:end]:
-        print(line)
-    print()
-
-raw_file = "dataset/trump/clinton-trump-tweets.csv"
-raw_dir = os.path.dirname(raw_file)
-data_set = read_mix_set(raw_file)
-# data_set = read_pure_set(raw_file)
-# data_set = read_pure_set_bis(raw_file)
-print(len(data_set))
-print_some_line(data_set, 0, 50)
+# to read the other's tweets
+def read_other_tweets(filename):
+    data = []
+    with open(filename, newline='') as csv_file:
+        reader = csv.DictReader(csv_file)
+        for line in reader:
+            data.append((line['author'], line['text']))
+    return data
 
 
 # remove the content which is around with " ... " with ' __QUOTE__ '
@@ -67,20 +63,35 @@ def remove_reference(data):
 
         line_text = re.sub(r'\".*\"', ' __QUOTE__ ', line_text)
         line_text = re.sub(r'https://\S*', ' __URL__ ', line_text)
-        line_text = re.sub(r'\n',' ', line_text);
+        line_text = re.sub(r'\n', ' ', line_text)
         return_data.append([line[0], line_text])
         count += 1
     return return_data, refer_content
 
 
-def write_clean_data(data):
-    with open(raw_dir+"/clinton-trump-tweets_clean.csv", 'w+') as output:
+def write_clean_data(data, write_path):
+    with open(write_path, 'w+') as output:
         for line in data:
-            output.write(str(line[0])+'\t'+line[1]+'\n')
+            output.write(line[0]+'\t'+line[1]+'\n')
 
 
-def write_refers(data):
-    with open(raw_dir+"/references.txt", 'w+') as output:
+def append_new_clean_data(data, write_path):
+    with open(write_path, 'a+') as output:
+        for line in data:
+            output.write(line[0] + '\t' + line[1] + '\n')
+
+
+def write_refers(data, write_path):
+    with open(write_path, 'w+') as output:
+        for line in data:
+            tmp_str = str(line[0])
+            for refer in line[1]:
+                tmp_str = tmp_str + '\t'+refer
+            tmp_str += '\n'
+            output.write(tmp_str)
+
+def append_refers(data, write_path):
+    with open(write_path, 'a+') as output:
         for line in data:
             tmp_str = str(line[0])
             for refer in line[1]:
@@ -89,9 +100,23 @@ def write_refers(data):
             output.write(tmp_str)
 
 
+
+raw_file = "dataset/trump/clinton-trump-tweets.csv"
+raw_dir = os.path.dirname(raw_file)
+data_set = read_mix_set(raw_file)
+print(len(data_set))
+
+clean_data_path = raw_dir+"/clinton-trump-tweets_clean.csv"
+refers_path = raw_dir+"/references.txt"
 (data_set_pure_text, refers) = remove_reference(data_set)
 print(len(data_set_pure_text))
-print_some_line(data_set_pure_text, 0, 50)
-print_some_line(refers, 0, 10)
-write_clean_data(data_set_pure_text)
-write_refers(refers)
+write_clean_data(data_set_pure_text, clean_data_path)
+write_refers(refers, refers_path)
+
+data_set_obama = read_other_tweets("dataset/BarackObama.csv")
+print(len(data_set_obama))
+(data_set_clean_obama, refers_obama) = remove_reference(data_set_obama)
+print(len(data_set_clean_obama))
+append_new_clean_data(data_set_clean_obama, clean_data_path)
+append_refers(refers_obama, refers_path)
+

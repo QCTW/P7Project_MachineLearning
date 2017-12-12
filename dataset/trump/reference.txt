@@ -6,3 +6,6 @@ https://www.kaggle.com/doughersak/donald-trump-tweet-statistics/data
 
 trump-tweets-bis.csv
 https://www.kaggle.com/austinvernsonger/donaldtrumptweets/data
+
+others
+https://www.kaggle.com/adhok93/president-obama/data
