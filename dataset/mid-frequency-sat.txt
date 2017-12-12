@@ -1,0 +1,2698 @@
+accompany...syn: come with; be present or associated with an event or entity
+
+adjust...syn: alter; alter or regulate so as to achieve accuracy or conform to a standard
+
+allocate...syn: assign; distribute according to a plan or set apart for a special purpose
+
+alter...syn: change; cause to change; make different; cause a transformation
+
+animate...syn: bring to life; heighten or intensify
+
+behalf...syn: benefit; for someone's benefit
+
+coalition...syn: combination; an organization of people (or countries) involved in a pact or treaty
+
+compound...syn: combination; make more intense, stronger, or more marked
+
+consent...syn: agreement; permission to do something
+
+consistent...syn: not varying; (sometimes followed by `with’) in agreement or consistent or reliable
+
+console...syn: comfort; give moral or emotional strength to
+
+consolidate...syn: combine; unite into one
+
+consolidation...syn: combination; combining into a solid mass
+
+construct...syn: build; make by combining materials and parts
+
+derive...syn: come from; reason by deduction; establish by deduction
+
+emerge...syn: come out; come out into view, as from concealment
+
+facilitate...syn: assist; make easier
+
+induce...syn: cause; cause to arise
+
+ongoing...syn: continuous; currently happening
+
+premise...syn: basis; a statement that is assumed to be true and from which a conclusion can be drawn
+
+proceed...syn: continue; continue talking
+
+prohibit...syn: ban; command against
+
+prospect...syn: chance; the possibility of future success
+
+pursue...syn: chase; carry out or participate in an activity; be involved in
+
+relax...syn: be at ease; become less tense, rest, or take one’s ease
+
+transform...syn: change; subject to a mathematical transformation
+
+transition...syn: change; the act of passing from one state or place to the next
+
+undertake...syn: attempt; enter upon an activity or enterprise
+
+valid...syn: true or real; well grounded in logic or truth or having legal force
+
+welfare...syn: benefit; governmental provision of economic assistance to persons in need
+
+adapt...syn: get used to; make fit for, or change to suit a new purpose
+
+adequate...syn: enough; having the requisite qualities or resources to meet a task
+
+adverse...syn: harmful; contrary to your interests or welfare
+
+assure...syn: guarantee; make certain of
+
+boundless...syn: endless; seemingly limitless in amount, number, degree, or especially extent
+
+brochure...syn: document; a small book usually having a paper cover
+
+colleague...syn: fellow worker; an associate that one works with
+
+concentrate...syn: focus; make denser, stronger, or purer
+
+conclude...syn: decide; decide by reasoning; draw or come to a conclusion
+
+decline...syn: drop; grow worse
+
+definite...syn: exact; precise; explicit and clearly defined
+
+determination...syn: firmness of purpose; devoting full strength and concentrated attention to something
+
+ethnic...syn: cultural; distinctive of the ways of living of a particular group of people
+
+eventual...syn: expected; expected to follow in the indefinite future from causes already operating
+
+explicit...syn: expressed; precisely and clearly expressed or readily observable
+
+illustrate...syn: demonstrate; clarify by giving an example of
+
+interpret...syn: explain; make sense of; assign a meaning to
+
+investigate...syn: examine; investigate scientifically
+
+liberal...syn: forward-thinking; a person who favors reform and the protection of civil liberties
+
+margin...syn: edge; the boundary line or the area immediately inside the boundary
+
+occupy...syn: fill; keep busy with
+
+precise...syn: exact; sharply exact or accurate or delimited
+
+recover...syn: find again; get or find back; recover the use of
+
+resolve...syn: firmness of purpose; bring to an end; settle conclusively
+
+restore...syn: fix; return to its original or usable and functioning condition
+
+retrieve...syn: get back; get or find back; recover the use of
+
+severe...syn: difficult; intensely or extremely bad or unpleasant in degree or quality
+
+sublime...syn: grand; inspiring awe
+
+sufficient...syn: enough; of a quantity that can fulfill a need or requirement but without being abundant
+
+tradition...syn: custom; an inherited pattern of thought or action
+
+attitude...syn: mindset; a complex mental state involving beliefs, feelings, and values
+
+chronicle...syn: history; record in chronological order; make a historical record
+
+communicate...syn: inform; transmit information
+
+comprise...syn: include; be composed of
+
+considerable...syn: important; large or relatively large in number or amount or extent or degree
+
+diagnosis...syn: identification; identifying the nature or cause of some phenomenon
+
+duration...syn: length; the period of time during which something continues
+
+emphasis...syn: importance; special importance or significance
+
+encounter...syn: meeting; come together
+
+equip...syn: make ready; provide with (something) usually for a specific purpose
+
+ethic...syn: moral principle; the principles of right and wrong
+
+execute...syn: kill; kill as a means of socially sanctioned punishment
+
+implication...syn: meaning; something that is inferred (deduced or entailed or implied)
+
+incentive...syn: motive; a positive motivational influence
+
+intermediate...syn: middle; lying between two extremes in time or space or state
+
+isolate...syn: keep apart; place or set apart
+
+minimize...syn: make seem unimportant; make small or insignificant
+
+offset...syn: make up for; compensate for or counterbalance
+
+orient...syn: locate; be oriented
+
+parallel...syn: not intersecting; being everywhere equidistant and not intersecting
+
+partial...syn: incomplete; being or affecting only a part; not total
+
+psychology...syn: mind study; the science of mental life
+
+refine...syn: improve; improve or perfect by pruning or polishing
+
+regulate...syn: manage; fix or adjust the time, amount, degree, or rate of
+
+restrict...syn: limit; place restrictions on
+
+revolution...syn: major change; a drastic and far-reaching change in ways of thinking and behaving
+
+somewhat...syn: more or less; to a small degree or extent
+
+statute...syn: law; an act passed by a legislative body
+
+survive...syn: live on; continue to live through hardship or adversity
+
+trek...syn: journey; journey on foot, especially in the mountains
+
+apparent...syn: seeming; clearly revealed to the mind or the senses or judgment
+
+circumstance...syn: situation; a condition that accompanies or influences some event or activity
+
+cite...syn: quote; make reference to
+
+clause...syn: section; (grammar) an expression including a subject and predicate
+
+constraint...syn: restriction; the state of being physically constrained
+
+coordinate...syn: organize; bring order and organization to
+
+detect...syn: notice; discover or determine the existence, presence, or fact of
+
+dispatch...syn: speed; send away towards a designated goal
+
+excerpt...syn: short selection; take out of a literary work in order to cite or copy
+
+expose...syn: reveal; expose or make accessible to some action or influence
+
+globe...syn: round figure; the 3rd planet from the sun; the planet we live on
+
+hence...syn: so; (used to introduce a logical conclusion) from that fact or reason or as a result
+
+interval...syn: period; a definite length of time marked off by two instants
+
+lecture...syn: speech; a speech that is open to the public
+
+logic...syn: reasoning; the branch of philosophy that analyzes inference
+
+mutual...syn: shared; common to or shared by two or more parties
+
+peripheral...syn: outside; on or near an edge or constituting an outer boundary; the outer area
+
+pose...syn: position; introduce
+
+practitioner...syn: physician or performer; someone who practices a learned profession
+
+preliminary...syn: prior; denoting an action or event preceding or in preparation for something more important
+
+reject...syn: say no; refuse to accept or acknowledge
+
+scenario...syn: situation; an outline or synopsis of a play (or, by extension, of a literary work)
+
+spectrum...syn: range; an ordered array of the components of an emission or wave
+
+substantial...syn: real; fairly large
+
+substitute...syn: replace; put in the place of another; switch seemingly equivalent items
+
+temporary...syn: short-term; not permanent; not lasting
+
+transmit...syn: send; transfer to another
+
+visible...syn: possible to see; capable of being seen; or open to easy view
+
+voluntary...syn: optional; of your own free will or design; done by choice; not forced or compelled
+
+warrant...syn: permit; show to be reasonable or provide adequate ground for
+
+alloy...syn: blend; lower in value by increasing the base-metal content
+
+appreciate...syn: value; recognize with gratitude; be grateful for
+
+assumption...syn: supposition; a statement that is assumed to be true and from which a conclusion can be drawn
+
+assurance...syn: sureness; freedom from doubt; belief in yourself and your abilities
+
+breach...syn: break; act in disregard of laws, rules, contracts, or promises
+
+bulk...syn: volume; the property resulting from being or relating to the greater in number of two parts
+
+commence...syn: begin; take the first step or steps in carrying out an action
+
+complement...syn: well-matched pair; a word or phrase used to complete a grammatical construction
+
+conform...syn: adapt; be similar, be in line with
+
+decade...syn: ten years; a period of 10 years
+
+doctrine...syn: belief; a belief (or system of beliefs) accepted as authoritative by some group or school
+
+enforce...syn: carry out; ensure observance of laws and rules
+
+franchise...syn: voting; an authorization to sell a company’s goods or services in a particular place
+
+furthermore...syn: additionally; in addition
+
+fusion...syn: blending; an occurrence that involves the production of a union
+
+imply...syn: suggest; express or state indirectly
+
+initiate...syn: start; bring into being
+
+insight...syn: understanding; clear or deep perception of a situation
+
+interact...syn: act together; act towards each other; act together or towards others or with others
+
+invoke...syn: call forth; summon into action or bring into existence, often as if by magic
+
+nevertheless...syn: any way; despite anything to the contrary (usually following a concession)
+
+offensive...syn: attacking; the action of attacking an enemy
+
+peerless...syn: unique; eminent beyond or above comparison
+
+rely...syn: trust; have confidence or faith in
+
+reverse...syn: turn; change to the contrary
+
+sanction...syn: approve; give sanction to
+
+transit...syn: transportation; passing from one place to another
+
+trigger...syn: start; lever that activates the firing mechanism of a gun
+
+utilize...syn: use; put into service
+
+validate...syn: authorize; declare or make legally valid
+
+addiction...syn: dependence; the state of relying on or being controlled by someone or something else
+
+aggregate...syn: collection; formed of separate units gathered into a mass or whole
+
+alias...syn: false name; a name that has been assumed temporarily
+
+assert...syn: declare; state categorically
+
+clarify...syn: clear up; make clear and (more) comprehensible
+
+collapse...syn: fall apart; break down, literally or metaphorically
+
+confusion...syn: disorder; disorder resulting from a failure to behave predictably
+
+consequent...syn: following; following or accompanying as a consequence
+
+crucial...syn: essential; of extreme importance; vital to the resolution of a crisis
+
+devote...syn: dedicate; give entirely to a specific person, activity, or cause
+
+distinct...syn: different; (often followed by `from’) not alike; different in nature or quality
+
+eclipse...syn: cover; one celestial body obscures another
+
+evolve...syn: develop; work out
+
+exotic...syn: foreign; being or from or characteristic of another place or part of the world
+
+genealogy...syn: family tree; successive generations of kin
+
+hypothesis...syn: expectation; a proposal intended to explain certain facts or observations
+
+inspect...syn: examine; look over carefully
+
+intense...syn: forceful; possessing or displaying a distinctive feature to a heightened degree
+
+mortality...syn: death rate; the quality or state of being mortal
+
+notable...syn: famous; worthy of notice
+
+partition...syn: divide; a vertical structure that divides (as a wall divides one room from another)
+
+proportion...syn: corresponding; the relation between things with respect to their quantity or degree
+
+prototype...syn: early model; a standard or typical example
+
+radical...syn: extreme; (used of opinions and actions) far beyond the norm
+
+rally...syn: excite; gather
+
+simulate...syn: copy; reproduce someone’s behavior or looks
+
+synthesis...syn: combination; the process of producing a chemical compound
+
+terminate...syn: end; bring to an end or halt
+
+termination...syn: end; a coming to an end of a contract period
+
+undergo...syn: experience; pass through
+
+accommodate...syn: make room for; be agreeable or acceptable to
+
+accumulate...syn: gather; get or gather together
+
+adjacent...syn: next to; nearest in space or position; immediately adjoining without intervening space
+
+cant...syn: meaningless talk; stock phrases that have become nonsense through endless repetition
+
+caption...syn: heading; provide with a caption, as of a photograph or a drawing
+
+commodity...syn: goods; articles of commerce
+
+denote...syn: mean; be a sign or indication of
+
+enormous...syn: huge; extraordinarily large in size or extent or amount or power or degree
+
+epic...syn: heroic poem; a long narrative poem telling of a hero’s deeds
+
+finite...syn: limited; bounded or limited in magnitude or spatial or temporal extent
+
+impair...syn: harm; make worse or less effective
+
+incidence...syn: happening; the relative frequency of occurrence of something
+
+inclusive...syn: including; including much or everything; and especially including stated limits
+
+indigenous...syn: native; originating where it is found
+
+injure...syn: hurt; cause injuries or bodily harm to
+
+integral...syn: included; existing as an essential constituent or characteristic
+
+levy...syn: impose; impose and collect
+
+maximize...syn: make as great as possible; make as big or large as possible
+
+minimal...syn: littlest; the least possible
+
+notion...syn: idea; a vague idea in which some confidence is placed
+
+overlap...syn: lie over; coincide partially or wholly
+
+passport...syn: legal identification; any authorization to pass or go somewhere
+
+rational...syn: logical; consistent with or based on or using reason
+
+regime...syn: government; the organization that is the governing authority of a political unit
+
+reside...syn: live in; make one’s home in a particular place or community
+
+sphere...syn: globe; a particular environment or walk of life
+
+suspend...syn: hang; hang freely
+
+therapeutic...syn: healing; tending to cure or restore to health
+
+underlie...syn: influence; be or form the base for
+
+violate...syn: go against; fail to agree with; be in violation of; as of rules or patterns
+
+accelerate...syn: speed up; move faster
+
+arbitrary...syn: random; based on individual preference or impulse
+
+assemble...syn: put together; create by putting components or members together
+
+attain...syn: reach; to gain with effort
+
+beneficiary...syn: recipient; the recipient of funds or other benefits
+
+colonial...syn: related to foreign settlements; of or relating to or characteristic of or inhabiting a colony
+
+comparable...syn: similar; able to be compared or worthy of comparison
+
+compress...syn: pack together; make more compact by or as if by pressing
+
+contrary...syn: opposite to; very opposed in nature or character or purpose
+
+depict...syn: picture; show in, or as in, a picture
+
+disclose...syn: reveal; make known to the public information that was previously known only to a few
+
+distinction...syn: recognition; a discrimination between things as different and distinct
+
+dominate...syn: rule; be larger in number, quantity, power, status or importance
+
+evident...syn: obvious; clearly revealed to the mind or the senses or judgment
+
+feasible...syn: possible; capable of being done with means at hand and circumstances as they are
+
+gravity...syn: seriousness; (physics) the force of attraction between all masses in the universe
+
+hierarchy...syn: order; a series of ordered groupings of people or things within a system
+
+identical...syn: same; exactly alike; incapable of being perceived as different
+
+meditation...syn: profound thought; continuous and profound contemplation on a deep subject
+
+neutral...syn: objective; having no personal preference
+
+norm...syn: standard; a standard or model or pattern regarded as typical
+
+nutrient...syn: source of nourishment; any substance that can be metabolized by an animal to give energy
+
+passive...syn: not active; lacking in energy or will
+
+perceive...syn: notice; to become aware of through the senses
+
+precede...syn: occur earlier; be earlier in time; go back further
+
+provincial...syn: rural person; of or associated with a province
+
+rant...syn: scolding speech; talk in a noisy, excited, or declamatory manner
+
+react...syn: respond; show a response or a reaction to something
+
+subsidiary...syn: secondary; an assistant subject to the authority or control of another
+
+viable...syn: possible; capable of being done with means at hand and circumstances as they are
+
+acclaim...syn: approval; praise vociferously
+
+affinity...syn: attraction; (immunology) the attraction between an antigen and an antibody
+
+affirm...syn: agree; establish or strengthen as with new evidence or facts
+
+append...syn: add; add to the very end
+
+badger...syn: bother; annoy persistently
+
+beneficial...syn: useful; promoting or enhancing well-being
+
+bias...syn: unfair opinion; a partiality that prevents objective consideration of an issue or situation
+
+cease...syn: stop; put an end to a state or an activity
+
+collaborate...syn: cooperate; work together on a common enterprise of project
+
+constituent...syn: component; one of the individual parts of which a composite entity is made up
+
+consume...syn: use; eat immoderately
+
+conviction...syn: strong belief; an unshakable belief in something without need for proof or evidence
+
+deprecate...syn: blame; express strong disapproval of; deplore
+
+discrepancy...syn: difference; a difference between conflicting facts or claims or opinions
+
+disseminate...syn: broadcast; cause to become widely known
+
+endorse...syn: support; be behind; approve of
+
+immune...syn: unaffected; a person who is immune to a particular infection
+
+justify...syn: support; show to be reasonable or provide adequate ground for
+
+narrative...syn: story; a message that tells the particulars of an act or occurrence or course of events
+
+negligence...syn: carelessness; failure to act with the prudence that a reasonable person would exercise
+
+persist...syn: continue; continue to exist
+
+predominant...syn: common; most frequent or common
+
+presume...syn: assume; take to be the case or to be true; accept without verification or proof
+
+profound...syn: deep; showing intellectual penetration or emotional depth
+
+provisional...syn: conditional; under terms not final or fully worked out or agreed upon
+
+sage...syn: wise; a mentor in spiritual and philosophical topics who is renowned for profound wisdom
+
+susceptible...syn: available; (often followed by `of’ or `to’) yielding readily to or capable of
+
+thesis...syn: theory; an unproved statement put forward as a premise in an argument
+
+unify...syn: unite; become one
+
+volatile...syn: capable of exploding; liable to lead to sudden change or violence
+
+aspire...syn: hope; have an ambitious plan or a lofty goal
+
+asylum...syn: hiding place; a shelter from danger or hardship
+
+avid...syn: eager; (often followed by `for’) ardently or excessively desirous
+
+confer...syn: discuss; have a conference in order to talk something over
+
+constrain...syn: hold back; hold back
+
+detach...syn: disconnect; cause to become detached or separated; take off
+
+differentiate...syn: distinguish; mark as different
+
+dissent...syn: disagree; withhold assent
+
+efficacy...syn: effectiveness; capacity or power to produce a desired effect
+
+forthcoming...syn: expected; at ease in talking to others
+
+illuminate...syn: light up; make lighter or brighter
+
+implicit...syn: hinted; implied though not directly expressed; inherent in the nature of something
+
+inherent...syn: included; existing as an essential constituent or characteristic
+
+intervene...syn: interrupt; get involved, so as to alter an action, or through force or threat of force
+
+intrinsic...syn: essential; belonging to a thing by its very nature
+
+malicious...syn: hateful; having the nature of or resulting from malice
+
+manipulate...syn: influence; influence or control shrewdly or deviously
+
+nonetheless...syn: however; despite anything to the contrary (usually following a concession)
+
+notorious...syn: ill famed; known widely and usually unfavorably
+
+oblique...syn: indirect; slanting or inclined in direction or course or position
+
+paramount...syn: essential; having superior power and influence
+
+proliferation...syn: expansion; growth by the rapid multiplication of parts
+
+prolong...syn: extend; lengthen in time; cause to be or last longer
+
+renovate...syn: fix up; restore to a previous or better condition
+
+resign...syn: give up; leave (a job, post, or position) voluntarily
+
+straightforward...syn: honest; free from ambiguity
+
+subsidy...syn: financial aid; a grant paid by a government to an enterprise that benefits the public
+
+symmetry...syn: exact matching of forms; (mathematics) an attribute of a shape or relation
+
+tentative...syn: experimental; under terms not final or fully worked out or agreed upon
+
+waive...syn: give up; do without or cease to hold or adhere to
+
+ample...syn: plentiful; more than enough in size or scope or capacity
+
+anomaly...syn: odd item; deviation from the normal or common order or form or rule
+
+artifact...syn: saved item; a man-made object taken as a whole
+
+autonomous...syn: self governing; (of political bodies) not controlled by outside forces
+
+compensate...syn: pay back; adjust for
+
+confine...syn: limit; place limits on (extent or access)
+
+converge...syn: move toward a meeting point; be adjacent or come together
+
+converse...syn: opposite; carry on a conversation
+
+cosmic...syn: related to the universe; pertaining to or characteristic of the cosmos or universe
+
+culinary...syn: related to cooking; of or relating to or used in cooking
+
+depress...syn: push down; lower someone’s spirits; make downhearted
+
+devise...syn: plan; come up with (an idea, plan, explanation, theory, or principle) after a mental effort
+
+displace...syn: move; cause to move, usually with force or pressure
+
+empirical...syn: practical; derived from experiment and observation rather than theory
+
+esteem...syn: respect; the condition of being honored (esteemed or respected or well regarded)
+
+expedite...syn: rush; speed up the progress of; facilitate
+
+hamper...syn: restrain; prevent the progress or free movement of
+
+inhibit...syn: restrict; to put down by force or authority
+
+justification...syn: reason; something that shows an action to be reasonable or necessary
+
+manifest...syn: obvious; provide evidence for
+
+maxim...syn: saying; a saying that is widely accepted on its own merits
+
+migrate...syn: move; move from one country or region to another and settle there
+
+mock...syn: make fun; treat with contempt
+
+motive...syn: reason; the psychological feature that arouses an organism to action toward a desired goal
+
+paradigm...syn: model; systematic arrangement of all the inflected forms of a word
+
+proximity...syn: nearness; the property of being close together
+
+restraint...syn: limitation; the act of controlling by restraining someone or something
+
+rue...syn: regret; feel remorse for; feel sorry for; be contrite about
+
+subjective...syn: personal; taking place within the mind and modified by individual bias
+
+successor...syn: replacement; a person who follows next in order
+
+augment...syn: add, increase; enlarge or increase
+
+authenticate...syn: validate; establish the authenticity of something
+
+coincidence...syn: a striking or unlikely combination of events
+
+concede...syn: admit; admit (to a wrongdoing)
+
+conceive...syn: understand; have the idea for
+
+concurrent...syn: simultaneous; occurring or operating at the same time
+
+degradation...syn: shame; changing to a lower state (a less respected state)
+
+discrete...syn: separate; constituting a separate entity or part
+
+dispose...syn: throw away; give, sell, or transfer to another
+
+dissertation...syn: thesis; a treatise advancing a new point of view resulting from research
+
+emulate...syn: adopt as a role model; strive to equal or match, especially by imitating
+
+endure...syn: suffer; put up with something or somebody unpleasant
+
+gale...syn: storm; a strong wind moving 45-90 knots; force 7 to 10 on Beaufort scale
+
+hardy...syn: strong; having rugged physical strength; inured to fatigue or hardships
+
+ideology...syn: value system; an orientation that characterizes the thinking of a group or nation
+
+incline...syn: slope; have a tendency or disposition to do or be something; be inclined
+
+instruct...syn: teach; impart skills or knowledge to
+
+intangible...syn: abstract; impossible to feel or touch
+
+itinerary...syn: travel plan; an established line of travel or access
+
+likewise...syn: similarly; in like or similar manner
+
+muse...syn: think over; reflect deeply on a subject
+
+prey...syn: victim; a person who is the aim of an attack
+
+proponent...syn: advocate; a person who pleads for a cause or propounds an idea
+
+revoke...syn: take back; fail to follow suit when able and required to do so
+
+secular...syn: worldly; someone who is not a clergyman or a professional person
+
+severity...syn: seriousness; used of the degree of something undesirable e.g. pain or weather
+
+singular...syn: unique; unusual or striking
+
+strut...syn: walk pompously; to walk with a lofty proud gait, often in an attempt to impress others
+
+transient...syn: temporary; one who stays for only a short time
+
+trivial...syn: unimportant; (informal) small and of little importance
+
+accolade...syn: award; a tangible symbol signifying approval or distinction
+
+awe...syn: amaze; an overwhelming feeling of wonder or admiration
+
+carp...syn: complain; raise trivial objections
+
+censor...syn: ban; forbid the public distribution of ( a movie or a newspaper)
+
+concur...syn: agree; be in accord; be in agreement
+
+confrontation...syn: conflict; a bold challenge
+
+contention...syn: argument; a point asserted as part of an argument
+
+enumerate...syn: count; specify individually
+
+equate...syn: consider equal; consider or describe as similar, equal, or analogous
+
+ethereal...syn: delicate; characterized by lightness and insubstantiality
+
+fabricate...syn: construct; put together out of artificial or natural components or parts
+
+homogeneous...syn: alike; all of the same or similar kind or nature
+
+incumbent...syn: current holder of an office; the official who holds an office
+
+infer...syn: conclude; reason by deduction; establish by deduction
+
+ironic...syn: amusing; humorously sarcastic or mocking
+
+lament...syn: complaint; express grief verbally
+
+lethal...syn: deadly; of an instrument of certain death
+
+paradox...syn: apparent contradiction; (logic) a statement that contradicts itself
+
+perpetual...syn: ageless; continuing forever or indefinitely
+
+predecessor...syn: ancestor; one who precedes you in time (as in holding a position or office)
+
+pristine...syn: clean; completely free from dirt or contamination
+
+propagate...syn: breed; transmit from one generation to the next
+
+prudent...syn: careful; careful and sensible; marked by sound judgment
+
+ratify...syn: authorize; approve and express assent, responsibility, or obligation
+
+recession...syn: decline; the state of the economy declines
+
+repertoire...syn: collection; a collection of works that an artist or company can perform
+
+serenity...syn: calm; a disposition free from stress or emotion
+
+sever...syn: cut; set or keep apart
+
+veneer...syn: covering; cover with veneer
+
+vie...syn: compete; compete for something; engage in a contest; measure oneself against others
+
+amplify...syn: expand; increase in size, volume or significance
+
+captivate...syn: fascinate; attract; cause to be enamored
+
+contingent...syn: depending on; a gathering of persons representative of some larger group
+
+contradict...syn: differ; be in contradiction with
+
+demolition...syn: destruction; an event (or the result of an event) that completely destroys something
+
+deter...syn: discourage; try to prevent; show opposition to
+
+discern...syn: distinguish; detect with the senses
+
+disclaim...syn: deny; renounce a legal claim or title to
+
+disparity...syn: difference; inequality or difference in some respect
+
+eclectic...syn: drawn from many different sources; selecting what seems best of various styles or ideas
+
+elicit...syn: evoke; call forth (emotions, feelings, and responses)
+
+frantic...syn: distressed; excessively agitated; distraught with fear or other violent emotion
+
+fraudulent...syn: fake; intended to deceive
+
+fugitive...syn: fleeing; someone who flees from an uncongenial situation
+
+idiom...syn: expression; a manner of speaking that is natural to native speakers of a language
+
+imbalance...syn: difference; a lack of balance or state of disequilibrium
+
+inconsistency...syn: difference; the relation between propositions that cannot both be true at the same time
+
+intimidate...syn: frighten; make timid or fearful
+
+nostalgia...syn: fond remembrance of the past; longing for something past
+
+nurture...syn: foster; help develop, help grow
+
+perennial...syn: enduring; lasting three seasons or more
+
+pervasive...syn: far reaching; spreading or spread throughout
+
+pore...syn: examine; any tiny hole admitting passage of a liquid (fluid or gas)
+
+saturate...syn: fill completely, soak; infuse or fill completely
+
+surpass...syn: exceed; distinguish oneself
+
+terrestrial...syn: earthly; of or relating to or inhabiting the land as opposed to the sea or air
+
+trough...syn: feed box; a narrow depression (as in the earth or between ocean waves or in the ocean bed)
+
+turbulence...syn: disturbance; unstable flow of a liquid or gas
+
+ubiquitous...syn: ever present; being present everywhere at once
+
+underscore...syn: emphasize; give extra weight to (a communication)
+
+adversary...syn: opponent; someone who offers opposition
+
+anarchy...syn: lawlessness; state of lawless disorder (usually resulting from a failure of government)
+
+apprenticeship...syn: instruction; the position of apprentice
+
+chaotic...syn: mixed up; lacking a visible order or organization
+
+climax...syn: high point; the highest point of anything conceived of as growing or developing or unfolding
+
+coincide...syn: occur at the same time or in the same place; go with, fall together
+
+consequential...syn: important; having important issues or results
+
+convene...syn: meet; meet formally
+
+exemplary...syn: model; worthy of imitation
+
+forgo...syn: give up; do without or cease to hold or adhere to
+
+humane...syn: kind; pertaining to or concerned with the humanities
+
+implicate...syn: involve, entangle; bring into intimate and incriminating connection
+
+intermittent...syn: irregular; stopping and starting at irregular intervals
+
+latent...syn: inactive; potentially existing but not presently evident or realized
+
+marshal...syn: organize; a law officer having duties similar to those of a sheriff
+
+opaque...syn: not transparent or translucent; not transmitting or reflecting light or radiant energy
+
+parody...syn: humorous imitation; a composition that imitates somebody’s style, usually in a humorous way
+
+prologue...syn: introduction; an introduction to a play
+
+promulgate...syn: make known; state or announce
+
+prone...syn: lying down; having a tendency (to); often used in combination
+
+reputable...syn: honorable; having a good reputation
+
+restrain...syn: hold back; keep under control; keep in check
+
+satire...syn: mockery; witty language used to convey insults or scorn
+
+skeptical...syn: nonbelieving; denying or questioning the tenets of especially a religion
+
+stereotype...syn: overly narrow representation; a conventional or formulaic conception or image
+
+subpoena...syn: legal summons; serve or summon with a subpoena
+
+titanic...syn: huge; of great force or power
+
+unprecedented...syn: new; having no precedent; novel
+
+utopia...syn: Paradise; ideally perfect state, especially in its social and political and moral aspects
+
+vanguard...syn: leading position; the leading units moving at the head of an army
+
+agile...syn: quick; moving quickly and lightly
+
+alleviate...syn: relieve; provide physical relief, as from pain
+
+betray...syn: show; break the trust of; reveal unintentionally
+
+boycott...syn: refuse to do business with; refuse to sponsor; refuse to do business with
+
+commemorate...syn: preserve in memory; mark by some ceremony or observation
+
+covert...syn: secret; a flock of coots
+
+devious...syn: scheming; indirect in departing from the accepted or proper way; misleading
+
+disperse...syn: scatter; distribute loosely
+
+dissolution...syn: separation; separation into component parts
+
+distill...syn: purify; remove impurities from, increase the concentration of, and separate
+
+glossy...syn: polished; a magazine printed on good quality paper
+
+heed...syn: pay attention; pay close attention to; give heed to
+
+invert...syn: reverse; make an inversion (in a musical composition)
+
+linger...syn: remain; remain present although waning or gradually dying
+
+paragon...syn: perfection; an ideal instance; a perfect embodiment of a concept
+
+pastoral...syn: rural; of or relating to a pastor
+
+permeable...syn: possible to fill or pass through; allowing fluids or gases to pass or diffuse through
+
+precedent...syn: prior example; an example that is used to justify similar occurrences at a later time
+
+problematic...syn: presenting difficulty; open to doubt or debate
+
+purge...syn: removal; oust politically
+
+recurrent...syn: repeating; recurring again and again
+
+reiterate...syn: repeat; to say, state, or perform again
+
+relic...syn: saved item; an antiquity that has survived from the distant past
+
+remnant...syn: saved item; a small part or portion that remains after the main part no longer exists
+
+renegade...syn: rebel; break with established customs
+
+sect...syn: religious order; a subdivision of a larger religious group
+
+stringent...syn: rigorous; demanding strict attention to rules and procedures
+
+superficial...syn: seeming; concerned with or comprehending only what is apparent or obvious
+
+supersede...syn: replace; take the place or move into the position of
+
+vantage...syn: point from which one sees; place or situation affording a comprehensive view
+
+ambulatory...syn: able to walk; relating to or adapted for walking
+
+analogous...syn: similar; similar or equivalent in some respects though otherwise dissimilar
+
+analogy...syn: similarity; an inference that if things agree in some respects they probably agree in others
+
+ancillary...syn: supplementary; furnishing added support
+
+anecdote...syn: story; short account of an incident (especially a biographical one)
+
+anomalous...syn: abnormal; deviating from the general or common order or type
+
+aria...syn: song; an elaborate song for solo voice
+
+artisan...syn: skilled person; a skilled worker who practices some trade or handicraft
+
+authoritarian...syn: absolutist; characteristic of an absolute ruler or absolute rule; having absolute sovereignty
+
+bland...syn: tasteless; lacking taste or flavor or tang
+
+cessation...syn: stopping; a stopping
+
+deplete...syn: use up; use up (resources or materials)
+
+distort...syn: warp; make false by mutilation or addition; as of a message or story
+
+energize...syn: stimulate; cause to be alert and energetic
+
+erode...syn: wear away; become ground down or deteriorate
+
+exhaustive...syn: thorough; performed comprehensively and completely
+
+galvanize...syn: stimulate; to stimulate to action
+
+inadvertent...syn: accidental; happening by chance or unexpectedly or unintentionally
+
+jabber...syn: talk; talk in a noisy, excited, or declamatory manner
+
+jargon...syn: technical language; a characteristic language of a particular group (as among thieves)
+
+mural...syn: wall painting; a painting that is applied to a wall surface
+
+obsess...syn: think about something constantly; haunt like a ghost; pursue
+
+pivot...syn: swivel; turn on a pivot
+
+plethora...syn: abundance; extreme excess
+
+recount...syn: tell; narrate or give a detailed account of
+
+rhetoric...syn: sophistication in speaking; using language effectively to please or persuade
+
+sinister...syn: threatening; threatening or foreshadowing evil or tragic developments
+
+stipulate...syn: specify; specify as a condition or requirement in a contract or agreement
+
+subordinate...syn: subsidiary; an assistant subject to the authority or control of another
+
+tense...syn: tighten; a grammatical category of verbs used to express distinctions of time
+
+affix...syn: attach; attach to
+
+avert...syn: avoid; prevent the occurrence of; prevent from happening
+
+babble...syn: chat; utter meaningless sounds, like a baby, or utter in an incoherent way
+
+bestow...syn: confer; present
+
+boon...syn: blessing; a desirable state
+
+bustle...syn: activity; move or cause to move energetically or busily
+
+cliché...syn: commonplace; a trite or obvious remark
+
+coda...syn: concluding section; the closing section of a musical composition
+
+compendium...syn: collection; a publication containing a variety of works
+
+confound...syn: confuse; be confusing or perplexing to; cause to be unable to think clearly
+
+craven...syn: coward; lacking even the rudiments of courage; abjectly fearful
+
+cumbersome...syn: awkward; difficult to handle or use especially because of size or weight
+
+diverge...syn: branch off; move or draw apart
+
+elucidate...syn: clarify; make clear and (more) comprehensible
+
+emanate...syn: come from; proceed or issue forth, as from a source
+
+exemplify...syn: be example; be characteristic of
+
+ferment...syn: agitate; a state of agitation or turbulent change or development
+
+fluctuate...syn: change; cause to fluctuate or move in a wavelike pattern
+
+fluency...syn: command of language; powerful and effective language
+
+indict...syn: accuse; accuse formally of a crime
+
+ingenious...syn: clever; showing inventiveness and skill
+
+nocturnal...syn: active at night; belonging to or active during the night
+
+perpetrate...syn: commit; perform an act, usually with a negative connotation
+
+pique...syn: annoy; tightly woven fabric with raised cords
+
+rectify...syn: correct; math: determine the length of
+
+respiration...syn: breathing technique; the metabolic processes whereby organisms obtain energy
+
+shackle...syn: bond; a restraint that confines or restricts freedom
+
+submissive...syn: compliant; willing to submit to orders or wishes of others
+
+tedious...syn: boring; so lacking in interest as to cause mental weariness
+
+wary...syn: careful; marked by keen caution and watchful prudence
+
+antidote...syn: cure; a remedy that stops or controls the effects of a poison
+
+apprehension...syn: dread; fearful expectation or anticipation
+
+ascendant...syn: dominant; position or state of being dominant or in control
+
+autopsy...syn: death report; an examination and dissection of a dead body to determine cause of death
+
+aversion...syn: dislike; a feeling of intense dislike
+
+calamity...syn: disaster; an event resulting in great loss and misfortune
+
+curtail...syn: cut back; place restrictions on
+
+cynical...syn: distrustful; believing the worst of human nature and motives
+
+delineate...syn: describe; outline; show the form or outline of
+
+discredit...syn: disgrace; cause to be distrusted or disbelieved
+
+dispel...syn: drive away; force to go away; used both with concrete and metaphoric meanings
+
+dissipate...syn: disappear slowly; to cause to separate and go in different directions
+
+divergent...syn: different; diverging from another or from a standard
+
+innovate...syn: create; bring something new to an environment
+
+jeopardize...syn: endanger; pose a threat to; present a danger to
+
+lofty...syn: elevated; of high moral or intellectual value; elevated in nature or style
+
+misrepresent...syn: deceive; represent falsely
+
+negate...syn: eliminate; be in contradiction with
+
+pathological...syn: diseased; of or relating to the practice of pathology
+
+potency...syn: effectiveness; the power or right to give orders or make decisions
+
+resilient...syn: enduring; recovering readily from adversity, depression, or the like
+
+resonant...syn: echoing; characterized by resonance
+
+savory...syn: delicious; morally wholesome or acceptable
+
+subside...syn: decrease; wear off or die down
+
+temperament...syn: disposition; your usual mood
+
+thrifty...syn: economical; careful and diligent in the use of resources
+
+unearth...syn: dig up; bring to light
+
+vertigo...syn: dizziness; a reeling sensation; a feeling that you are about to fall
+
+vigor...syn: energy; forceful exertion
+
+wane...syn: diminish; grow smaller
+
+brittle...syn: fragile; having little elasticity; hence easily cracked or fractured or snapped
+
+caricature...syn: exaggerated cartoon; represent in or produce a caricature of
+
+clique...syn: exclusive group; an exclusive circle of people with a common purpose
+
+coercion...syn: force; the act of compelling by force of authority
+
+commensurate...syn: equivalent; corresponding in size or degree or extent
+
+cull...syn: gather; remove something that has been rejected
+
+decipher...syn: figure out; convert code into ordinary language
+
+dogma...syn: fixed belief; a religious doctrine that is proclaimed as true without proof
+
+dupe...syn: fool; fool or hoax
+
+ebb...syn: flow back, flow out; flow back or recede
+
+fawn...syn: flatter; a color or pigment varying around a light grey-brown color
+
+flattery...syn: give insincere compliments; excessive or insincere praise
+
+impart...syn: give; transmit (knowledge or skills)
+
+impeccable...syn: faultless; without fault or error
+
+intrepid...syn: fearless; invulnerable to fear or intimidation
+
+libel...syn: false and malicious statement; print slanderous statements against
+
+perpetuate...syn: extend; cause to continue or prevail
+
+peruse...syn: examine; examine or consider with attention and in detail
+
+predetermine...syn: establish in advance; determine beforehand
+
+reciprocate...syn: give or act in return; act, feel, or give mutually or in return
+
+relinquish...syn: give up; part with a possession or right
+
+relish...syn: enjoy; derive or receive pleasure from; get enjoyment from; take pleasure in
+
+renounce...syn: give up; give up, such as power, as of monarchs and emperors, or duties and obligations
+
+repel...syn: force back; cause to move back by force or influence
+
+rift...syn: gap; a gap between cloud masses
+
+savor...syn: enjoy; derive or receive pleasure from; get enjoyment from; take pleasure in
+
+secrete...syn: give off; generate and separate from cells or bodily fluids
+
+shimmer...syn: gleam; shine with a weak or fitful light
+
+spurious...syn: false; plausible but false
+
+unravel...syn: figure out; become or cause to become undone by separating the fibers or threads of
+
+adversity...syn: hardship; a state of misfortune or affliction
+
+allude...syn: indicate; make a more or less disguised reference to
+
+apathy...syn: indifference; an absence of emotion or enthusiasm
+
+calligraphy...syn: handwriting; beautiful handwriting
+
+colossal...syn: huge; so great in size or force or extent as to elicit awe
+
+corrosive...syn: hurtful; of a substance, especially a strong acid
+
+daunt...syn: intimidate; cause to lose courage
+
+deduce...syn: infer; reason by deduction; establish by deduction
+
+delusion...syn: illusion; (psychology) an incorrect belief that is held in spite of evidence to the contrary
+
+detrimental...syn: harmful; (sometimes followed by `to’) causing harm or injury
+
+diligent...syn: hard working; quietly and steadily persevering especially in detail or exactness
+
+dormant...syn: inactive; in a condition of biological rest or suspended animation
+
+foresight...syn: insight into the future; providence by virtue of planning prudently for the future
+
+impede...syn: hinder; be a hindrance or obstacle to
+
+incarcerate...syn: imprison; lock up or confine, in or as in a jail
+
+innate...syn: inherent; not established by conditioning or learning
+
+irrational...syn: illogical; not consistent with or using reason
+
+loathe...syn: hate; find repugnant
+
+luminous...syn: glowing; softly bright or radiant
+
+lurk...syn: hide; lie in wait, lie in ambush, behave in a sneaky and secretive manner
+
+monumental...syn: impressive; relating or belonging to or serving as a monument
+
+obnoxious...syn: irritating; causing disapproval or protest
+
+preamble...syn: introduction; a preliminary introduction to a statute  (usually explaining its purpose)
+
+rancid...syn: ill smelling; corrupt
+
+repress...syn: keep back; put down by force or intimidation
+
+serendipity...syn: good fortune; good luck in making unexpected and fortunate discoveries
+
+sporadic...syn: intermittent; recurring in scattered and irregular or unpredictable instances
+
+subdue...syn: keep down; put down by force or intimidation
+
+thwart...syn: hinder; hinder or prevent (the efforts, plans, or desires) of
+
+travail...syn: labor; use of physical or mental energy; hard work
+
+abate...syn: lessen; make less active or intense
+
+arrogance...syn: pride; overbearing pride evidenced by a superior manner toward inferiors
+
+bourgeois...syn: middle-class; a capitalist who engages in industrial commercial enterprise
+
+conspicuous...syn: obvious; obvious to the eye or mind
+
+contentious...syn: quarrelsome; inclined to dispute, even to engage in law suits
+
+cryptic...syn: mysterious; of an obscure nature
+
+disparate...syn: not alike; fundamentally different or distinct in quality or kind
+
+dissident...syn: protester; a person who dissents from some established policy
+
+endemic...syn: local; a disease that is constantly present to a greater or lesser degree
+
+exalt...syn: praise; praise, glorify, or honor
+
+hackneyed...syn: overused; repeated too often; overfamiliar through overuse
+
+incite...syn: prompt; give an incentive for action
+
+inert...syn: motionless; unable to move or resist motion
+
+infraction...syn: offense; a crime less serious than a felony
+
+legislate...syn: make laws; make laws, bills, etc. or bring into effect by legislation
+
+levee...syn: landing place; a formal reception of visitors or guests (as at a royal court)
+
+lucrative...syn: profitable; producing a sizeable profit
+
+meek...syn: mild; humble in spirit or manner; suggesting retiring mildness or even cowed submissiveness
+
+overt...syn: obvious; open and observable; not secret or hidden
+
+parable...syn: moral story; a short moral story (often with animal characters)
+
+podium...syn: pulpit; a platform raised above the surrounding level to give prominence to the person on it
+
+porous...syn: permeable; able to absorb fluids
+
+rejuvenate...syn: make young again; cause (a stream or river) to erode, as by an uplift of the land
+
+replenish...syn: refill; fill something that had previously been emptied
+
+ruthless...syn: pitiless; without mercy or pity
+
+scamp...syn: rascal; perform hastily and carelessly
+
+stigma...syn: mark of disgrace; the apical end of the style where deposited pollen enters the pistil
+
+stint...syn: period, duration; subsist on a meager allowance
+
+tranquil...syn: peaceful; (of a body of water) free from disturbance by heavy waves
+
+whimsical...syn: playful; determined by chance or impulse or whim rather than by necessity or reason
+
+abridge...syn: shorten; reduce in scope while retaining essential elements
+
+abstain...syn: say no; refrain from voting
+
+bloat...syn: swell; become bloated or swollen or puff up
+
+deterrent...syn: restraint; something immaterial that interferes with or delays action or progress
+
+deviate...syn: stray; turn aside; turn away from
+
+disjoint...syn: separate; part; cease or break association with
+
+glimmer...syn: sparkle; a flash of light (especially reflected light)
+
+gratify...syn: satisfy; make happy or satisfied
+
+hiatus...syn: suspension; an interruption in the intensity or amount of something
+
+malice...syn: spitefulness; feeling a need to see others suffer
+
+mercenary...syn: soldier of fortune; a person hired to fight for another country than their own
+
+monarchy...syn: royalty; an autocracy governed by a monarch who usually inherits the authority
+
+moratorium...syn: suspension; a legally authorized postponement before some obligation must be discharged
+
+obligatory...syn: required; morally or legally constraining or binding
+
+perverse...syn: stubbornly resistant; marked by a disposition to oppose and contradict
+
+precipitate...syn: speed; bring about abruptly
+
+provocative...syn: stimulating; serving or tending to provoke, excite, or stimulate
+
+refractory...syn: stubborn; lining consisting of material with a high melting point
+
+rescind...syn: revoke; cancel officially
+
+retaliation...syn: revenge; action taken in return for an injury or offense
+
+retract...syn: take back; formally reject or disavow a formerly held belief, usually under pressure
+
+rigor...syn: severity; something hard to endure
+
+slag...syn: residue; convert into slag
+
+sluggish...syn: slow moving; moving slowly
+
+stifle...syn: smother; conceal or hide
+
+tactile...syn: related to the sense of touch; of or relating to or proceeding from the sense of touch
+
+turmoil...syn: shaking; a violent disturbance
+
+typhoon...syn: storm; a tropical cyclone occurring in the western Pacific or Indian oceans
+
+uniformity...syn: sameness; a condition in which everything is regular and unvarying
+
+verbose...syn: talkative; using or containing too many words
+
+abet...syn: assist; assist or encourage, usually in some wrongdoing
+
+affluent...syn: wealthy; an affluent person; a person who is financially well off
+
+attenuate...syn: weaken; weaken the consistency of (a chemical substance)
+
+degenerate...syn: worsen; grow worse
+
+enterprising...syn: active and adventuresome; marked by initiative and readiness to undertake new projects
+
+eschew...syn: avoid; avoid and stay away from deliberately; stay clear of
+
+espouse...syn: adopt; choose and follow; as of theories, ideas, policies, strategies or plans
+
+estrange...syn: alienate; remove from customary environment or associations
+
+fledgling...syn: beginner; any new participant in some activity
+
+guile...syn: trickery; shrewdness as demonstrated by being skilled in deception
+
+heresy...syn: unorthodoxy; any opinions or doctrines at variance with the official or orthodox position
+
+hermitage...syn: the residence of a recluse; the abode of a hermit
+
+indifferent...syn: uncaring; marked by a lack of interest
+
+insolvent...syn: bankrupt; someone who has insufficient assets to cover their debts
+
+invalidate...syn: void; declare invalid
+
+migratory...syn: traveling; used of animals that move seasonally
+
+oblivion...syn: unconsciousness; the state of being disregarded or forgotten
+
+ominous...syn: threatening; threatening or foreshadowing evil or tragic developments
+
+ordeal...syn: trouble; a severe or trying experience
+
+pretentious...syn: arrogant; intended to attract notice and impress others
+
+prodigy...syn: very gifted young person; an unusually gifted or intelligent (young) person
+
+ramble...syn: wander; continue talking or writing in a desultory manner
+
+rampant...syn: widespread; unrestrained and violent
+
+relegate...syn: banish; refer to another person for decision or judgment
+
+reluctance...syn: unwillingness; (physics) opposition to magnetic flux (analogous to electric resistance)
+
+resumption...syn: beginning again; beginning again
+
+skeptic...syn: unbeliever; someone who habitually doubts accepted beliefs
+
+Spartan...syn: unembellished; a resident of Sparta
+
+translucent...syn: transmitting light; allowing light to pass through diffusely
+
+turbulent...syn: troubled; characterized by unrest or disorder or insubordination
+
+amalgamate...syn: combine; to bring or combine together or with something else
+
+antiseptic...syn: decontaminator; thoroughly clean and free of or destructive to disease-causing organisms
+
+aver...syn: declare; report or maintain
+
+caustic...syn: bitter; any chemical substance that burns or destroys living tissue
+
+coalesce...syn: blend; mix together different elements
+
+cogent...syn: convincing; powerfully persuasive
+
+complacency...syn: contentedness; the feeling you have when you are satisfied with yourself
+
+corroborate...syn: confirm; establish or strengthen as with new evidence or facts
+
+culpable...syn: blameful; deserving blame or censure as being wrong or evil or injurious
+
+decadence...syn: degeneration; the state of being degenerate in mental or moral qualities
+
+demeanor...syn: conduct; (behavioral attributes) the way a person behaves toward other people
+
+derelict...syn: deserted; a person without a home, job, or property
+
+discord...syn: conflict; be different from one another
+
+engender...syn: cause; call forth
+
+epilogue...syn: conclusion; a short speech addressed to the audience by an actor at the end of a play
+
+fiasco...syn: catastrophe; a sudden and violent collapse
+
+fissure...syn: crack; break into fissures or fine cracks
+
+hypocritical...syn: deceitful; professing feelings or virtues one does not have
+
+immutable...syn: changeless; not subject or susceptible to change or variation in form or quality or nature
+
+implode...syn: collapse inward; burst inward
+
+infallible...syn: dependable; incapable of failure or error
+
+mesmerize...syn: captivate; attract strongly, as if with a magnet
+
+obliterate...syn: destroy; mark for deletion, rub off, or erase
+
+panacea...syn: cure all; (Greek mythology) the goddess of healing
+
+pedantic...syn: bookish; marked by a narrow focus on or display of learning especially its trivial aspects
+
+reprimand...syn: criticize; rebuke formally
+
+reproach...syn: criticism; a mild rebuke or criticism
+
+smolder...syn: burn without flame; burn slowly and without a flame
+
+succinct...syn: concise; briefly giving the gist of something
+
+vise...syn: clasp; a holding device attached to a workbench
+
+antagonism...syn: hostility; a state of deep-seated ill-will
+
+attrition...syn: gradual reduction; erosion by friction
+
+buoyant...syn: floaty; tending to float on a liquid or rise in air or gas
+
+burgeon...syn: grow; grow and flourish
+
+candor...syn: honesty; ability to make judgments free from discrimination or dishonesty
+
+clemency...syn: forgiveness; good weather with comfortable temperatures
+
+culmination...syn: high point; a final climactic stage
+
+demean...syn: disgrace; reduce in worth or character, usually verbally
+
+dichotomy...syn: division; being twofold; a classification into two opposed parts or subclasses
+
+eloquence...syn: fluency; powerful and effective language
+
+ephemeral...syn: fleeing; lasting a very short time
+
+giddy...syn: excited and silly; having or causing a whirling sensation; liable to falling
+
+gouge...syn: dig or poke out; force with the thumb
+
+immigrate...syn: enter; migrate to a new environment
+
+incapacitate...syn: disable; make unable to perform a certain action
+
+incoherent...syn: disconnected; without logical or meaningful connection
+
+intractable...syn: hard to manage; not tractable; difficult to manage or mold
+
+inundate...syn: flood; fill quickly beyond capacity; as with a liquid
+
+kindle...syn: excite; catch fire
+
+philanthropist...syn: humanitarian; someone who makes charitable donations intended to increase human well-being
+
+piety...syn: devotion; righteousness by virtue of being pious
+
+plummet...syn: fall; drop sharply
+
+posterity...syn: future generations; all of the offspring of a given progenitor
+
+protract...syn: extend; lengthen in time; cause to be or last longer
+
+rebut...syn: disprove or contradict; overthrow by argument, evidence, or proof
+
+remorse...syn: guilt; a feeling of deep regret (usually for some misdeed)
+
+shard...syn: fragment; a broken piece of a brittle artifact
+
+supposition...syn: guess; a message expressing an opinion based on incomplete evidence
+
+transcendent...syn: extraordinary; exceeding or surpassing usual limits especially in excellence
+
+unwarranted...syn: groundless; incapable of being justified or explained
+
+acumen...syn: insight; a tapering point
+
+administrate...syn: manage; work in an administrative capacity; supervise or be in charge of
+
+ameliorate...syn: improve; to make better
+
+arbiter...syn: judge; someone with the power to settle matters at will
+
+bungle...syn: mistake; make a mess of, destroy or ruin
+
+condescend...syn: lower oneself; behave in a patronizing and condescending manner
+
+deleterious...syn: hurtful; harmful to living things
+
+delirium...syn: madness; state of violent mental agitation
+
+didactic...syn: instructional; instructive (especially excessively)
+
+dirge...syn: lament; a song or hymn of mourning composed or performed as a memorial to a dead person
+
+dissonance...syn: lack of harmony; a conflict of people’s opinions or actions or characters
+
+dwindle...syn: lessen; become smaller or lose substance
+
+extraneous...syn: inessential; not pertinent to the matter under consideration
+
+impromptu...syn: improvised; an extemporaneous speech or remark
+
+metamorphosis...syn: major change; the marked and rapid transformation of a larva into an adult
+
+muddle...syn: jumble; a confused multitude of things
+
+nullify...syn: invalidate; declare invalid
+
+painstaking...syn: meticulous; characterized by extreme care and great effort
+
+perjury...syn: lying while under oath; criminal offense of making false statements under oath
+
+profane...syn: irreligious; characterized by profanity or cursing
+
+proliferate...syn: increase; grow rapidly
+
+provident...syn: looking ahead wisely; providing carefully for the future
+
+recumbent...syn: lying down; lying down; in a position of comfort or rest
+
+savant...syn: learned person; someone who has been admitted to membership in a scholarly field
+
+scanty...syn: inadequate; lacking in amplitude or quantity
+
+seclusion...syn: isolation; the quality of being secluded from the presence or view of others
+
+sloth...syn: laziness; a disinclination to work or exert yourself
+
+smelt...syn: melt or fuse; extract (metals) by heating
+
+synoptic...syn: inclusive or general; presenting a summary or general view of a whole
+
+viscous...syn: jelly-like; having a relatively high resistance to flow
+
+antecedent...syn: predecessor; someone from whom you are descended (but usually more remote than a grandparent)
+
+archaic...syn: out of date; so extremely old as seeming to belong to an earlier period
+
+arduous...syn: requiring great effort; characterized by effort to the point of exhaustion
+
+aristocracy...syn: nobility; a privileged class holding hereditary titles
+
+averse...syn: opposing; (usually followed by `to’) strongly opposed
+
+burnish...syn: polish; polish and make shiny
+
+disinterest...syn: neutrality; tolerance attributable to a lack of involvement
+
+extol...syn: praise; praise, glorify, or honor
+
+extrapolation...syn: prediction; an inference about the future based on known facts and observations
+
+fervor...syn: passion; feelings of great warmth and intensity
+
+hindrance...syn: obstacle; something immaterial that interferes with or delays action or progress
+
+incessant...syn: never-ending; uninterrupted in time and indefinitely long continuing
+
+incisive...syn: penetrating; having or demonstrating ability to recognize or draw fine distinctions
+
+indiscriminate...syn: random; failing to make or recognize distinctions
+
+infernal...syn: related to hell; characteristic of or resembling Hell
+
+insurrection...syn: rebellion; organized opposition to authority
+
+laud...syn: praise; praise, glorify, or honor
+
+methodical...syn: organized; characterized by method and orderliness
+
+optimist...syn: positive thinker; a person disposed to take a favorable view of things
+
+pacifist...syn: peace lover; someone opposed to violence as a means of settling disputes
+
+progenitor...syn: predecessor; an ancestor in the direct line
+
+quibble...syn: objection; evade the truth of a point or question by raising irrelevant objections
+
+reactionary...syn: opposed to change or progress; an extreme conservative; an opponent of progress or liberalism
+
+rebuff...syn: repel; reject outright and bluntly
+
+satirical...syn: mocking; exposing human folly to ridicule
+
+seep...syn: ooze; pass gradually or leak through or as if through small openings
+
+stagnant...syn: motionless; not circulating or flowing
+
+subtlety...syn: nuance; a subtle difference in meaning or opinion or attitude
+
+subvert...syn: overturn; cause the downfall of; of rulers
+
+whittle...syn: pare; cut small bits or pare shavings from
+
+allusion...syn: suggestion; passing reference or indirect mention
+
+aloft...syn: suggestion; at or on or to the masthead or upper rigging of a ship
+
+appease...syn: soothe; cause to be more favorably inclined; gain the good will of
+
+arable...syn: suitable for farming; (of farmland) capable of being farmed productively
+
+balk...syn: resist; refuse to comply
+
+bastion...syn: support; a group that defends a principle
+
+clandestine...syn: secret; conducted with or marked by hidden aims or methods
+
+connotation...syn: suggestion; what you must know in order to determine the reference of an expression
+
+conundrum...syn: riddle; a difficult problem
+
+crass...syn: rude; (of persons) so unrefined as to be lacking in discrimination and sensibility
+
+deface...syn: spoil the appearance; mar or spoil the appearance of
+
+deference...syn: respect; a courteous expression (by word or deed) of esteem or regard
+
+evocative...syn: suggestive; serving to bring to mind
+
+fetter...syn: shackle; restrain with fetters
+
+frivolous...syn: silly; not serious in content or attitude or behavior
+
+grandeur...syn: splendor; the quality of being magnificent or splendid or grand
+
+insidious...syn: sneaky; beguiling but harmful
+
+lampoon...syn: ridicule; ridicule with satire
+
+malign...syn: slander; evil or harmful in nature or influence
+
+plagiarize...syn: steal; take without referencing from someone else’s writing or speech
+
+preempt...syn: seize precedence; acquire for oneself before others can do so
+
+propriety...syn: suitableness; correct or appropriate behavior
+
+sate...syn: satisfy; fill to satisfaction
+
+shamble...syn: shuffle; walk by dragging one’s feet
+
+sobriety...syn: seriousness; the state of being sober and not intoxicated by alcohol
+
+stalwart...syn: sturdy, tough; a person who is loyal to their allegiance (especially in times of revolt)
+
+tacit...syn: silent; implied by or inferred from actions or statements
+
+tiller...syn: steering mechanism; grow shoots in the form of stools or tillers
+
+undulate...syn: rise and fall; stir up (water) so as to form ripples
+
+virtuoso...syn: superstar; someone who is dazzlingly skilled in any field
+
+admonish...syn: warn; admonish or counsel in terms of someone’s behavior
+
+amenable...syn: willing; disposed or willing to comply
+
+atrophy...syn: wasting away; a decrease in size of an organ caused by disease or disuse
+
+blasphemy...syn: swearing; blasphemous language (expressing disrespect for God or for something sacred)
+
+buttress...syn: support; reinforce with a buttress
+
+digress...syn: wander; lose clarity or turn aside from the main subject in writing or speaking
+
+divest...syn: take away; take away possessions from someone
+
+egregious...syn: very bad; conspicuously and outrageously bad or reprehensible
+
+exhilarate...syn: thrill; fill with sublime emotion
+
+expedient...syn: useful, practical; serving to promote your interest
+
+frail...syn: weak; physically weak
+
+impervious...syn: unaffected; not admitting of passage or capable of being affected
+
+larceny...syn: theft; the act of taking something from someone unlawfully
+
+meander...syn: wander; to move or cause to move in a sinuous, spiral, or circular course
+
+navigable...syn: travelable; able to be sailed on or through safely
+
+oblivious...syn: unaware; (followed by `to’ or `of’) lacking conscious awareness of
+
+oscillate...syn: swing back and forth; be undecided about something
+
+patronize...syn: support; assume sponsorship of
+
+precarious...syn: unstable; affording no ease or reassurance
+
+prodigal...syn: wasteful; a recklessly extravagant consumer
+
+quagmire...syn: swamp; a soft wet area of low-lying land that sinks underfoot
+
+quip...syn: witty comment; make jokes or quips
+
+ruse...syn: trick; a deceptive maneuver (especially to avoid capture)
+
+scapegoat...syn: victim; someone who is punished for the errors of others
+
+stanza...syn: verse; a fixed number of lines of verse forming a unit of a poem
+
+superfluous...syn: unnecessary; serving no useful purpose; having no excuse for being
+
+transgression...syn: violation; the act of transgressing; the violation of a law or a duty or moral principle
+
+trifle...syn: toy; waste time; spend one’s time idly or inefficiently
+
+vagabond...syn: wanderer; anything that resembles a vagabond in having no fixed place
+
+veracity...syn: truth; unwillingness to tell lies
+
+approbation...syn: approval; official approval
+
+banal...syn: commonplace; repeated too often; overfamiliar through overuse
+
+bestial...syn: brutal; resembling a beast; showing lack of human sensibility
+
+blare...syn: blast; make a strident sound
+
+cede...syn: yield; give over; surrender or relinquish to the physical control of another
+
+composure...syn: calmness; steadiness of mind under stress
+
+concoct...syn: combine; make a concoction (of) by mixing
+
+cursory...syn: casual; hasty and without attention to detail; not thorough
+
+depravity...syn: corruption; moral perversion; impairment of virtue and moral principles
+
+discordant...syn: conflicting; not in agreement or harmony
+
+encrusted...syn: coated; form a crust or a hard layer
+
+encumber...syn: burden; hold back
+
+enunciate...syn: articulate; speak, pronounce, or utter in a certain way
+
+exonerate...syn: acquit; pronounce not guilty of criminal charges
+
+forthright...syn: candid; characterized by directness in manner or speech; without subtlety or evasion
+
+incipient...syn: beginning; only partly in existence; imperfectly formed
+
+incongruous...syn: absurd; lacking in harmony or compatibility or appropriateness
+
+inure...syn: accustom to hardship; cause to accept or become hardened to; habituate
+
+leaven...syn: add yeast, cause to rise; cause to puff up with a leaven
+
+mutable...syn: changeable; capable of or tending to change in form or quality or nature
+
+outlandish...syn: bizarre; conspicuously or grossly unconventional or unusual
+
+pacify...syn: calm down; cause to be more favorably inclined; gain the good will of
+
+presumptuous...syn: assuming; excessively forward
+
+profusion...syn: abundance; the property of being extremely abundant
+
+rile...syn: agitate; cause annoyance in; disturb, especially by minor irritations
+
+scrupulous...syn: conscientious; having scruples; arising from a sense of right and wrong; principled
+
+simile...syn: comparison; a figure of speech that expresses a resemblance between things of different kinds
+
+tractable...syn: cooperative; easily managed (controlled or taught or molded)
+
+unanimity...syn: agreement; everyone being of one mind
+
+voluminous...syn: ample; large in volume or bulk
+
+aberrant...syn: deviant; markedly different from an accepted norm
+
+aloof...syn: distant; remote in manner
+
+altercation...syn: fight; noisy quarrel
+
+auspicious...syn: encouraging; auguring favorable circumstances and good luck
+
+circumscribe...syn: enclose; draw a line around
+
+denigrate...syn: criticize or belittle; cause to seem less serious; play down
+
+disconcert...syn: disturb; cause to feel embarrassment
+
+dissuade...syn: deter; turn away from by persuasion
+
+ductile...syn: flexible; easily influenced
+
+exuberance...syn: enthusiasm; joyful enthusiasm
+
+flout...syn: disregard; treat with contemptuous disregard
+
+hyperbole...syn: exaggeration; extravagant exaggeration
+
+impermeable...syn: extremely dense; preventing especially liquids to pass or diffuse through
+
+inordinate...syn: excessive; beyond normal limits
+
+interminable...syn: endless; tiresomely long; seemingly without end
+
+monotony...syn: dullness; the quality of wearisome constancy, routine, and lack of variety
+
+overbear...syn: dominate; bear too much
+
+parch...syn: dry; cause to wither or parch from exposure to heat
+
+perdition...syn: damnation; (Christianity) the abode of Satan and the forces of evil
+
+precocious...syn: early; characterized by very early development or maturity (especially in mental aptitude)
+
+prodigious...syn: extraordinary; so great in size or force or extent as to elicit awe
+
+pulverize...syn: crush; make into a powder by breaking up or cause to become dust
+
+quandary...syn: dilemma; a situation from which extrication is difficult especially an unpleasant one
+
+quiescent...syn: dormant; not active or activated
+
+reprehensible...syn: deplorable; bringing or deserving severe rebuke or censure
+
+sordid...syn: filthy; morally degraded
+
+stoic...syn: disinterested; seeming unaffected by pleasure or pain; impassive
+
+trepidation...syn: fear; a feeling of alarm or dread
+
+vilify...syn: criticize; spread negative information about
+
+vindictive...syn: cruel; disposed to seek revenge or intended for revenge
+
+animosity...syn: hatred; a feeling of ill will arousing active hostility
+
+apprise...syn: inform; inform (somebody) of something
+
+blithe...syn: happy; lacking or showing a lack of due concern
+
+brandish...syn: flourish; move or swing back and forth
+
+camaraderie...syn: friendship; the quality of affording easy familiarity and sociability
+
+congenial...syn: friendly; suitable to your needs
+
+contagion...syn: infection; any disease easily transmitted by contact
+
+disembark...syn: get off; go ashore
+
+draconian...syn: harsh; unusually or unreasonably harsh or severe
+
+enmity...syn: hostility; a state of deep-seated ill-will
+
+goad...syn: incite; give heart or courage to
+
+hermetic...syn: isolated; completely sealed; completely airtight
+
+impel...syn: force; urge or force (a person) to an action; constrain or motivate
+
+industrious...syn: hardworking; characterized by hard work and perseverance
+
+inquisitor...syn: interrogator; a questioner who is excessively harsh
+
+insinuate...syn: imply; introduce or insert (oneself) in a subtle manner
+
+laborious...syn: grueling; characterized by effort to the point of exhaustion; especially physical effort
+
+malleable...syn: flexible; easily influenced
+
+mortify...syn: humiliate; practice self-denial of one’s body and appetites
+
+notoriety...syn: infamy; the state of being known for some unfavorable act or quality
+
+peremptory...syn: imperious; offensively self-assured or given to exercising usually unwarranted power
+
+pessimism...syn: having a negative outlook; the feeling that things will turn out badly
+
+pliable...syn: flexible; susceptible to being led or directed
+
+premonition...syn: forewarning; a feeling of evil to come
+
+promontory...syn: high ground; a natural elevation (especially a rocky one that juts out into the sea)
+
+recluse...syn: hermit; one who lives in solitude
+
+repulsion...syn: horror; the force by which bodies repel one another
+
+ruddy...syn: flushed; inclined to a healthy reddish color often associated with outdoor life
+
+sequester...syn: isolate; requisition forcibly, as of enemy property
+
+verdant...syn: green; characterized by abundance of verdure
+
+acquittal...syn: pardon; a judgment of not guilty
+
+antiquated...syn: out-of-date; obsolete or old-fashioned
+
+antithesis...syn: opposition; exact opposite
+
+boor...syn: jerk; a crude uncouth ill-bred person lacking culture or refinement
+
+charlatan...syn: pretender; a flamboyant deceiver; one who attracts customers with tricks or jokes
+
+diminution...syn: lessening; change toward something smaller or lower
+
+elate...syn: make happy; fill with high spirits; fill with optimism
+
+elegy...syn: lament; a mournful poem; a lament for the dead
+
+emancipate...syn: liberate; give equal rights to; of women and minorities
+
+fanaticism...syn: obsession; excessive intolerance of opposing views
+
+forbearance...syn: patience; good-natured tolerance of delay or incompetence
+
+foreshadow...syn: presage; indicate by signs
+
+fortuitous...syn: lucky; having no cause or apparent cause
+
+garble...syn: mix up; make false by mutilation or addition; as of a message or story
+
+gibberish...syn: nonsense; unintelligible talking
+
+grandiose...syn: pretentious; impressive because of unnecessary largeness or grandeur
+
+impotent...syn: powerless; lacking power or ability
+
+inanimate...syn: lifeless; belonging to the class of nouns denoting nonliving things
+
+indelible...syn: permanent; cannot be removed or erased
+
+listless...syn: lacking interest; lacking zest or vivacity
+
+nadir...syn: low-point; an extreme state of adversity; the lowest point of anything
+
+neophyte...syn: novice; a plant that is found in an area where it had not been recorded previously
+
+obfuscate...syn: make obscure; make obscure or unclear
+
+occlude...syn: obstruct; occlude
+
+opulence...syn: luxury; wealth as evidenced by sumptuous living
+
+preeminent...syn: leading; greatest in importance or degree or significance or achievement
+
+soliloquy...syn: monologue; speech you make to yourself
+
+tarry...syn: linger; be about
+
+tirade...syn: outburst; a speech of violent denunciation
+
+trite...syn: overused; repeated too often; overfamiliar through overuse
+
+absolve...syn: release from blame; grant remission of a sin to
+
+altruism...syn: selflessness; the quality of unselfish concern for the welfare of others
+
+altruistic...syn: selfless; showing unselfish concern for the welfare of others
+
+audacious...syn: reckless; invulnerable to fear or intimidation
+
+chastise...syn: scold; censure severely
+
+clairvoyant...syn: psychic; someone who has the power of clairvoyance
+
+decorum...syn: propriety; propriety in manners and conduct
+
+deplore...syn: regret; express strong disapproval of
+
+desecrate...syn: profane; violate the sacred character of a place or language
+
+discernible...syn: recognizable; perceptible by the senses or intellect
+
+erudite...syn: scholarly; having or showing profound knowledge
+
+fester...syn: rot; ripen and generate pus
+
+forestall...syn: prevent; keep from happening or arising; make impossible
+
+germane...syn: relevant; relevant and appropriate
+
+obviate...syn: prevent; do away with
+
+opportunist...syn: profit-seeker; a person who places expediency above principle
+
+preposterous...syn: ridiculous; incongruous; inviting ridicule
+
+proscribe...syn: prohibit; command against
+
+raucous...syn: rowdy; unpleasantly loud and harsh
+
+recuperate...syn: recover; regain or make up for
+
+repudiate...syn: renounce; cast off
+
+reverent...syn: respectful; feeling or showing profound respect or veneration
+
+rummage...syn: search; search haphazardly
+
+scavenge...syn: seek; clean refuse from
+
+sedition...syn: rebellion; an illegal action inciting resistance to lawful authority
+
+spat...syn: quarrel; a quarrel about petty points
+
+squabble...syn: quarrel; a quarrel about petty points
+
+venerate...syn: revere; regard with feelings of respect and reverence
+
+voracious...syn: ravening; excessively greedy and grasping
+
+whiff...syn: puff of air; a short light gust of air
+
+ambivalent...syn: undecided; uncertain or unable to decide about what course to follow
+
+apostate...syn: unorthodox; a disloyal person who deserts his cause or religion or political party
+
+austere...syn: stark; severely simple
+
+defame...syn: slander; charge falsely or with malicious intent
+
+euphemism...syn: substitution of a more polite expression
+
+gregarious...syn: talkative; (of animals) tending to form a group with others of the same species
+
+imperceptible...syn: unnoticeable; impossible or difficult to perceive by the mind or senses
+
+inane...syn: silly; devoid of intelligence
+
+indisputable...syn: undeniable; not open to question; obviously true
+
+infinitesimal...syn: tiny; (mathematics) a variable that has zero as its limit
+
+inkling...syn: slight idea; a slight suggestion or vague understanding
+
+introspective...syn: thoughtful; given to examining own sensory and perceptual experiences
+
+loath...syn: unwilling; unwillingness to do something contrary to your custom
+
+miserly...syn: stingy; (used of persons or behavior) characterized by or indicative of lack of generosity
+
+orator...syn: speaker; a person who delivers a speech or oration
+
+outwit...syn: to exceed in cleverness; beat through cleverness and wit
+
+paucity...syn: shortage; an insufficient quantity or number
+
+pummel...syn: strike; strike, usually with the fist
+
+pungency...syn: sharpness; wit having a sharp and caustic quality
+
+scuffle...syn: struggle; disorderly fighting
+
+servitude...syn: servanthood; state of subjection to an owner or master or forced labor imposed as punishment
+
+solemnity...syn: seriousness; a trait of dignified seriousness
+
+stalemate...syn: standstill; subject to a stalemate
+
+surreptitious...syn: sneaky; marked by quiet and caution and secrecy; taking pains to avoid being observed
+
+timidity...syn: shyness; fear of the unknown or unfamiliar or fear of making decisions
+
+totter...syn: sway; move without being stable, as if threatening to fall
+
+unscathed...syn: unharmed; not injured
+
+unsightly...syn: ugly; unpleasant to look at
+
+warble...syn: sing; sing or play with trills, alternating with the half note above or below
+
+whet...syn: sharpen; make keen or more acute
+
+abject...syn: wretched; of the most contemptible kind
+
+acrimonious...syn: bitter; marked by strong resentment or cynicism
+
+affluence...syn: wealth; abundant wealth
+
+beneficent...syn: benevolent; doing or producing good
+
+brusque...syn: abrupt; marked by rude or peremptory shortness
+
+cajole...syn: coax; influence or urge by gentle urging, caressing, or flattering
+
+castigate...syn: chasten; censure severely
+
+chaff...syn: waste; be silly or tease one another
+
+coagulate...syn: clot; change from a liquid to a thickened or solid state
+
+comely...syn: attractive; according with custom or propriety
+
+corrode...syn: wear away; cause to deteriorate due to the action of water, air, or an acid
+
+equanimity...syn: calmness; steadiness of mind under stress
+
+equivocal...syn: conflicting; open to two or more interpretations
+
+exigency...syn: urgent situation; a pressing or urgent situation
+
+fastidious...syn: careful; giving careful attention to detail
+
+gingerly...syn: carefully; in a gingerly manner
+
+harangue...syn: criticism; deliver a harangue to; address forcefully
+
+idolatry...syn: worship; religious zeal; the willingness to serve God
+
+itinerant...syn: wanderer; a laborer who moves from place to place as demanded by employment
+
+luxuriant...syn: abundant; marked by complexity and richness of detail
+
+maelstrom...syn: whirlpool; a powerful circular current of water (usually the result of conflicting tides)
+
+placate...syn: appease; cause to be more favorably inclined; gain the good will of
+
+polemical...syn: controversial; of or involving dispute or controversy
+
+prattle...syn: chatter; speak (about unimportant matters) rapidly and incessantly
+
+rejoinder...syn: comeback; a quick reply to a question or remark (especially a witty or critical one)
+
+staid...syn: calm; characterized by dignity and propriety
+
+swindler...syn: cheater; a person who swindles you by means of deception or fraud
+
+tedium...syn: boredom; the feeling of being bored by something tedious
+
+tortuous...syn: convoluted; highly complex or intricate and occasionally devious
+
+turbid...syn: cloudy; (of liquids) clouded as with sediment
+
+affable...syn: genial; diffusing warmth and friendliness
+
+assiduous...syn: diligent; marked by care and persistent effort
+
+avarice...syn: greed; reprehensible acquisitiveness
+
+contortion...syn: distortion; the act of twisting or deforming the shape of something (e.g., yourself)
+
+desiccate...syn: dry out; preserve by removing all water and liquids from
+
+despondent...syn: depressed; without or almost without hope
+
+dissemble...syn: feign; make believe with the intent to deceive
+
+distend...syn: dilate; become wider
+
+downcast...syn: depressed; directed downward
+
+explicate...syn: explain; make plain and comprehensible
+
+extricate...syn: disentangle; release from entanglement of difficulty
+
+fallacious...syn: false; containing or based on a fallacy
+
+forebode...syn: foretell; make a prediction about; tell in advance
+
+garish...syn: gaudy; tastelessly showy
+
+genteel...syn: cultured; marked by refinement in taste and manners
+
+glower...syn: glare; look at with a fixed gaze
+
+imbibe...syn: drink; take in, also metaphorically
+
+impertinent...syn: disrespectful; characterized by a lightly pert and exuberant quality
+
+insubordination...syn: disobedience; defiance of authority
+
+morose...syn: gloomy; showing a brooding ill humor
+
+portend...syn: foreshadow; indicate by signs
+
+quixotic...syn: fanciful; not sensible about practical matters; idealistic and unrealistic
+
+ramshackle...syn: falling apart; in deplorable condition
+
+recapitulate...syn: go over; summarize briefly
+
+remiss...syn: delinquent; failing in what duty requires
+
+revulsion...syn: disgust; intense aversion
+
+specious...syn: false; plausible but false
+
+stupor...syn: daze; the feeling of distress and disbelief that you have when something bad happens
+
+swill...syn: drink; feed pigs
+
+vicissitude...syn: fluctuation; a variation in circumstances or fortune in the development of something
+
+antipathy...syn: hatred; a feeling of intense dislike
+
+covetous...syn: greedy; showing extreme cupidity; painfully desirous of another’s advantages
+
+credulity...syn: gullibility; tendency to believe readily
+
+dross...syn: impurity; worthless or dangerous material that should be removed
+
+facetious...syn: kidding; cleverly amusing in tone
+
+feint...syn: maneuver; deceive by a mock action
+
+glutton...syn: lover of food; a person who is devoted to eating and drinking to excess
+
+heckle...syn: interrupt a public speaker; comb with a heckle
+
+impassable...syn: impossible to pass; incapable of being passed
+
+implacable...syn: impossible to please; incapable of being placated
+
+incongruity...syn: incompatibility; the quality of disagreeing; being unsuitable and inappropriate
+
+incorrigible...syn: impossible to correct; impervious to correction by punishment
+
+inviolable...syn: invulnerable; incapable of being transgressed or dishonored
+
+jaunty...syn: lighthearted; marked by up-to-dateness in dress and manners
+
+laggard...syn: lazy person; someone who takes more time than necessary; someone who lags behind
+
+languid...syn: lethargic; lacking spirit or liveliness
+
+leniency...syn: indulgence; mercifulness as a consequence of being lenient or tolerant
+
+lethargic...syn: lacking energy; deficient in alertness or activity
+
+neologism...syn: invented word; a newly invented word or phrase
+
+perfectionism...syn: having extremely high standards; a feeling that anything less than perfect is unacceptable
+
+perfunctory...syn: inattentive; hasty and without attention to detail; not thorough
+
+ponderous...syn: heavy; slow and laborious because of weight
+
+prelate...syn: high priest; a senior clergyman and dignitary
+
+privation...syn: lack; a state of extreme poverty
+
+restive...syn: jittery; being in a tense state
+
+salutary...syn: healthful; tending to promote physical well-being; beneficial to health
+
+sanctimonious...syn: hypocritically pious in manner; excessively or hypocritically pious
+
+sycophant...syn: kiss-up; a person who tries to please someone in order to gain a personal advantage
+
+toady...syn: kiss-up; try to gain favor by cringing or flattering
+
+unseemly...syn: improper; not in keeping with accepted standards of what is right or proper in polite society
+
+abeyance...syn: pause; temporary cessation or suspension
+
+adulation...syn: praise; servile flattery; exaggerated and hypocritical praise
+
+adulterate...syn: pollute; corrupt, debase, or make impure by adding a foreign or inferior substance
+
+aplomb...syn: poise; great coolness and composure under strain
+
+apocryphal...syn: of doubtful authenticity; being of questionable authenticity
+
+begrudge...syn: resent; be envious of; set one’s heart on
+
+contrite...syn: remorseful; feeling or expressing pain or sorrow for sins or offenses
+
+defeatist...syn: pessimistic; someone who is resigned to defeat without offering positive suggestions
+
+deign...syn: patronize; do something that one considers to be below one’s dignity
+
+demur...syn: object; take exception to
+
+duplicity...syn: misrepresentation; a fraudulent or duplicitous representation
+
+frugality...syn: reluctance to spend; prudence in avoiding waste
+
+headstrong...syn: obstinate; habitually disposed to disobedience and opposition
+
+hedonist...syn: pleasure seeker; someone motivated by desires for sensual pleasures
+
+idiosyncrasy...syn: peculiarity; a behavioral attribute that is distinctive and peculiar to an individual
+
+indomitable...syn: persevering; impossible to subdue
+
+misanthrope...syn: people-hater; someone who dislikes people in general
+
+misconstrue...syn: misinterpret; interpret in the wrong way
+
+nondescript...syn: ordinary-looking; lacking distinct or individual characteristics; dull and uninteresting
+
+pallid...syn: pale; abnormally deficient in color as suggesting physical or emotional distress
+
+platitude...syn: overused phrase; a trite or obvious remark
+
+recalcitrant...syn: obstinate; stubbornly resistant to authority or control
+
+recant...syn: retract; formally reject or disavow a formerly held belief, usually under pressure
+
+reprove...syn: rebuke; take to task
+
+reticence...syn: reserve; the trait of being uncommunicative; not volunteering anything more than necessary
+
+satirize...syn: ridicule; ridicule with satire
+
+servile...syn: meek; submissive or fawning in attitude or behavior
+
+truism...syn: overused phrase; an obvious truth
+
+urbane...syn: refined; showing refinement and the assurance that comes from wide social experience
+
+welter...syn: rolling or tumbling; a confused multitude of things
+
+abrade...syn: scrape; wear away
+
+abscond...syn: run off; run away; usually includes taking something or somebody along
+
+assuage...syn: soothe; cause to be more favorably inclined; gain the good will of
+
+congeal...syn: solidify; become gelatinous
+
+debase...syn: shame; corrupt morally or by intemperance or sensuality
+
+demure...syn: shy; affectedly modest or shy especially in a playful or provocative way
+
+dishevel...syn: tangle; disarrange or rumple
+
+dregs...syn: sediment; sediment that has settled at the bottom of a liquid
+
+egotism...syn: selfishness; an exaggerated opinion of your own importance
+
+firebrand...syn: troublemaker; a piece of wood that has been burned or is burning
+
+fitful...syn: spasmodic; occurring in spells and often abruptly
+
+foment...syn: stir up; try to stir up public opinion
+
+furtive...syn: sneaky; marked by quiet and caution and secrecy; taking pains to avoid being observed
+
+ignoble...syn: shameful; completely lacking nobility in character or quality or purpose
+
+immobility...syn: stillness; remaining in place
+
+indefatigable...syn: tireless; showing sustained enthusiastic action with unflagging vitality
+
+indolent...syn: slothful; disinclined to work or exertion
+
+insensible...syn: unfeeling; incapable of physical sensation
+
+insipid...syn: tasteless; lacking taste or flavor or tang
+
+insubstantial...syn: unreal; lacking material form or substance; unreal
+
+martinet...syn: tyrant; someone who demands exact conformity to rules and forms
+
+petulant...syn: sulky; easily irritated or annoyed
+
+probity...syn: truthfulness; complete and confirmed integrity; having strong moral principles
+
+rivulet...syn: stream; a small stream
+
+satiate...syn: satisfy; fill to satisfaction
+
+saunter...syn: stroll; walk leisurely and with no apparent aim
+
+skulk...syn: slink; lie in wait, lie in ambush, behave in a sneaky and secretive manner
+
+stratagem...syn: scheme; a maneuver in a game or conversation
+
+striated...syn: striped; mark with stripes or striations
+
+unrequited...syn: unreturned; not returned in kind
+
+acrimony...syn: bitterness; a rough and bitter manner
+
+chauvinist...syn: bigot; a person with a prejudiced belief in the superiority of his or her own kind
+
+claustrophobia...syn: fear of enclosed spaces; a morbid fear of being closed in a confined space
+
+desultory...syn: goalless; marked by lack of definite plan or regularity or purpose
+
+ebullient...syn: enthusiastic; joyously unrestrained
+
+felicitous...syn: fortunate; exhibiting an agreeably appropriate manner or style
+
+foible...syn: weak point; a behavioral attribute that is distinctive and peculiar to an individual
+
+gainsay...syn: contradict; take exception to
+
+impassive...syn: expressionless; having or revealing little emotion or sensibility
+
+impudence...syn: disrespect; an impudent statement
+
+inarticulate...syn: voiceless; without or deprived of the use of speech or words
+
+incorporeal...syn: bodiless; without material form or substance
+
+indubitable...syn: certain; too obvious to be doubted
+
+ingratiate...syn: gain others' favor for; gain favor with somebody by deliberate efforts
+
+invective...syn: vilification; abusive  language used to express blame or bitter deep-seated ill will
+
+irascible...syn: angry; quickly aroused to anger
+
+irksome...syn: annoying; so lacking in interest as to cause mental weariness
+
+omnivorous...syn: eating all types of food; feeding on both plants and animals
+
+prate...syn: chatter; speak (about unimportant matters) rapidly and incessantly
+
+prescience...syn: foresight; the power to foresee the future
+
+profligate...syn: extravagant; a dissolute man in fashionable society
+
+protuberance...syn: bulge; something that bulges out or is protuberant or projects from its surroundings
+
+puerile...syn: immature; of or characteristic of a child
+
+remonstrance...syn: complaint; the act of expressing earnest opposition or protest
+
+reprobate...syn: disgraceful person; reject (documents) as invalid
+
+sinuous...syn: winding; curved or curving in and out
+
+ungainly...syn: awkward; lacking grace in movement or posture
+
+uproarious...syn: hilarious; uncontrollably noisy
+
+vacillate...syn: fluctuate; be undecided about something
+
+wheedle...syn: coax; influence or urge by gentle urging, caressing, or flattering
+
+commiserate...syn: sympathize; to feel or express sympathy or compassion
+
+dawdle...syn: linger; take one’s time; proceed slowly
+
+disabuse...syn: rid; free somebody (from an erroneous belief)
+
+fatuous...syn: stupid; devoid of intelligence
+
+fetid...syn: stinking; offensively malodorous
+
+garrulous...syn: talkative; full of trivial conversation
+
+iconoclastic...syn: rebellious; characterized by attack on established beliefs or institutions
+
+inchoate...syn: not yet organized; only partly in existence; imperfectly formed
+
+ingenuous...syn: innocent; characterized by an inability to mask your feelings; not devious
+
+intransigence...syn: stubbornness; the trait of being intransigent; stubbornly refusing to compromise
+
+jocular...syn: joking; characterized by jokes and good humor
+
+magnanimity...syn: largess; liberality in bestowing gifts; extremely liberal and generous of spirit
+
+officious...syn: intrusive; intrusive in a meddling or offensive manner
+
+perfidious...syn: treacherous; tending to betray
+
+portly...syn: stout; euphemisms for `fat’
+
+prurient...syn: lustful; characterized by lust
+
+raconteur...syn: narrator; a person skilled in telling anecdotes
+
+rarefy...syn: refine; lessen the density or solidity of
+
+rectitude...syn: righteousness; righteousness as a consequence of being honorable and honest
+
+remunerative...syn: lucrative; for which money is paid
+
+saccharine...syn: sickly sweet; overly sweet
+
+sodden...syn: soaked; wet through and through; thoroughly wet
+
+stolid...syn: placid; having or revealing little emotion or sensibility; not easily aroused or excited
+
+taciturn...syn: silent; habitually reserved and uncommunicative
+
+tempestuous...syn: stormy; characterized by violent emotions or behavior
+
+torpor...syn: lethargy; a state of motor and mental inactivity with a partial suspension of sensibility
+
+turgid...syn: pompous; ostentatiously lofty in style
+
+upbraid...syn: reproach; express criticism towards
+
+verisimilitude...syn: lifelikeness; the appearance of truth; the quality of seeming to be true
+
+voluble...syn: talkative; marked by a ready flow of speech
+
+anticlimax...syn: letdown; a disappointing decline after a previous rise
+
+blandishment...syn: flattery; flattery intended to persuade
+
+braggart...syn: boastful person; a very boastful and talkative person
+
+censorious...syn: critical; harshly critical or expressing censure
+
+chary...syn: cautious; characterized by great caution and wariness
+
+condole...syn: comfort; express one's sympathetic grief, on the occasion of someone's death
+
+deducible...syn: possible to infer; capable of being deduced
+
+effervescence...syn: enthusiasm; the process of bubbling as gas escapes
+
+enervate...syn: weaken; weaken mentally or morally
+
+exculpate...syn: exonerate; pronounce not guilty of criminal charges
+
+imperturbable...syn: calm; not easily perturbed or excited or upset; marked by extreme calm and composure
+
+impiety...syn: unrighteousness; unrighteousness by virtue of lacking respect for a god
+
+importune...syn: plead; beg persistently and urgently
+
+ingrate...syn: ungrateful person; a person who shows no gratitude
+
+inopportune...syn: unlucky; not opportune
+
+insularity...syn: isolation; the state of being isolated or detached
+
+irresolute...syn: indecisive; uncertain how to act or proceed
+
+mawkish...syn: maudlin; effusively or insincerely emotional
+
+opprobrium...syn: disgrace; state of disgrace resulting from public abuse
+
+penury...syn: poverty; a state of extreme poverty or destitution
+
+prevaricate...syn: equivocate; be deliberately ambiguous or unclear in order to mislead or withhold information
+
+propitiate...syn: appease; make peace with
+
+punctilious...syn: precise; marked by precise accordance with details
+
+querulous...syn: complaining; habitually complaining
+
+recondite...syn: mysterious; difficult to penetrate
+
+salubrious...syn: healthy; promoting health; healthful
+
+soporific...syn: causing sleep; a drug that induces sleep
+
+spendthrift...syn: wasteful; someone who spends money prodigally
+
+stodgy...syn: uninteresting; heavy and starchy and hard to digest
+
+venturesome...syn: daring; disposed to venture or take risks
+
+abstemious...syn: restraining; sparing in consumption of especially food and drink
+
+castigation...syn: chastisement; a severe scolding
+
+cogitate...syn: think about; consider carefully and deeply; reflect upon; turn over in one’s mind
+
+complaisant...syn: agreeable; showing a cheerful willingness to do favors for others
+
+diffidence...syn: shyness; lack of self-confidence
+
+disavowal...syn: repudiation; denial of any connection with or knowledge of
+
+disinclination...syn: unwillingness; that toward which you are inclined to feel dislike
+
+disputatious...syn: argumentative; inclined to disagree, even to engage in law suits
+
+equivocate...syn: use ambiguous language; be deliberately unclear in order to mislead
+
+expurgate...syn: cleanse; edit by omitting or modifying parts considered indelicate
+
+grandiloquent...syn: excessively heightened speech; lofty in style
+
+impecunious...syn: penniless; not having enough money to pay for necessities
+
+jocose...syn: joking; characterized by jokes and good humor
+
+lassitude...syn: sluggishness; a state of comatose torpor (as found in sleeping sickness)
+
+Lilliputian...syn: tiny; a very small person (resembling a Lilliputian)
+
+malingerer...syn: slacker; someone shirking their duty by feigning illness or incapacity
+
+mellifluous...syn: smooth and sweet sounding; pleasing to the ear
+
+mendacious...syn: untruthful; given to lying
+
+mutinous...syn: rebellious; disposed to or in a state of mutiny
+
+nonentity...syn: unimportant person; the state of not existing
+
+obdurate...syn: stubborn; stubbornly persistent in wrongdoing
+
+obtrude...syn: stick out; push to thrust outward
+
+pugnacity...syn: belligerence; a natural disposition to be hostile
+
+slapdash...syn: sloppy; in a careless or reckless manner
+
+somnolent...syn: sleepy; inclined to or marked by drowsiness
+
+traduce...syn: slander; speak unfavorably about
+
+truculence...syn: belligerence; obstreperous and defiant aggressiveness
+
+veracious...syn: true; habitually speaking the truth
+
+vituperative...syn: hateful; marked by harshly abusive criticism
+

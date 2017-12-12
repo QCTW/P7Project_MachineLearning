@@ -17,6 +17,9 @@ def count_all_capital_words(text_array):
 		count_list.append([count]) #Appends a one element array in each element of count_list
 	return create_csr_matrix(count_list)
 
+def count_rarity_of_vocabulary(text_array):
+	pass
+
 ####################
 # Unit test section
 ####################
