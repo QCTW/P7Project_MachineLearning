@@ -19,9 +19,19 @@ def create_csr_matrix(double_array):
     np_array = np.array(flat_array)
     return sp.csr_matrix( (np_array, (rows, cols)),  shape)
 
-
 def merge_csr_matrix_by_col(csr_m1, csr_m2):
     return sp.hstack((csr_m1, csr_m2))
 
 def merge_csr_matrix_by_row(csr_m1, csr_m2):
     return sp.vstack((csr_m1, csr_m2))
+
+def get_unique_value_in_list(np_arr): # Return a list, not np.array
+    ret = []
+    seen = set()
+    print(str(np_arr.shape))
+    for ele in np_arr.tolist():
+        for v in ele:
+            if v not in seen:
+                    seen.add(v) 
+                    ret.append(v)
+    return ret

@@ -17,6 +17,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils.extmath import density
 from sklearn import metrics
 
+from utility import get_unique_value_in_list
+
 class Classify:
 	def __init__(self):
 		self.classifiers = [(self.get_ridge_clf(), "Ridge Classifier"), 
@@ -59,7 +61,7 @@ def benchmark(clf, x_train, y_train, x_test, y_test):
 	print("Accuracy:      %0.3f" % score)
 	
 	print("Classification report:")
-	print(metrics.classification_report(y_test, pred, target_names=str(clf)))
+	print(metrics.classification_report(y_test, pred, target_names=get_unique_value_in_list(y_test)))
 	
 	print("Confusion matrix:")
 	print(metrics.confusion_matrix(y_test, pred))
