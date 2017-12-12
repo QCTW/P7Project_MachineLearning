@@ -35,7 +35,7 @@ class Classify:
 		return Perceptron(max_iter=50, tol=None)
 	def get_passive_aggr_clf(self):
 		return PassiveAggressiveClassifier(max_iter=50, tol=None)
-	def get_k_neighbors_clf(self, num_of_neigh=2):
+	def get_k_neighbors_clf(self, num_of_neigh=50):
 		return KNeighborsClassifier(n_neighbors=num_of_neigh)
 	def get_rand_forest_clf(self):
 		return RandomForestClassifier(n_estimators=100)

@@ -26,9 +26,9 @@ print(str(y_train))
 x_test, y_test = tf_idf.data.get_test_data()
 print(str(y_test))
 for (clf, cl_name) in cfs.classifiers:
-	if(cl_name=="K Neighbors"):
-		for n in range(1, 10):
-			clf = cfs.get_k_neighbors_clf(n);
-			benchmark(clf, x_train, y_train, x_test, y_test)
-	else:
-		benchmark(clf, x_train, y_train, x_test, y_test)
+# 	if(cl_name=="K Neighbors"):
+# 		for n in range(1, 51, 5):
+# 			clf = cfs.get_k_neighbors_clf(n);
+# 			benchmark(clf, x_train, y_train, x_test, y_test)
+# 	else:
+	benchmark(clf, x_train, y_train, x_test, y_test)
