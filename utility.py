@@ -28,10 +28,8 @@ def merge_csr_matrix_by_row(csr_m1, csr_m2):
 def get_unique_value_in_list(np_arr): # Return a list, not np.array
     ret = []
     seen = set()
-    print(str(np_arr.shape))
     for ele in np_arr.tolist():
-        for v in ele:
-            if v not in seen:
-                    seen.add(v) 
-                    ret.append(v)
+        if ele not in seen:
+            seen.add(ele) 
+            ret.append(ele)
     return ret
