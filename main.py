@@ -34,14 +34,23 @@ for (clf, cl_name) in cfs.classifiers:
 	benchmark(clf, x_train, y_train, x_test, y_test)
 
 
+def single_predicte_forest(input_txt, tf_idf, cfs):
+	X_top_1000_vocab = tf_idf.get_X_by_vocabulary(input_txt)
+	X_top_1000_bigram = tf_idf.get_X_by_n_gram(2, input_txt)
+	X_all_capital_count = count_all_capital_words(input_txt)
+	X_single = merge_csr_matrix_by_col(X_top_1000_vocab, X_top_1000_bigram)
+	X_single = merge_csr_matrix_by_col(X_main, X_all_capital_count)
+	clf = cfs.get_rand_forest_clf()
+	clf.fit(x_train, y_train)
+	print(clf.predict(X_single))
+
+
 while 1:
-	line = raw_input("Please input a tweet.")
+	line = input("Please input a tweet.")
 	if line == 'exit':
 		break
 	elif len(line) <= 10:
 		print("The tweet is too short, length need be more than 10")
 		continue
 	else:
-		clf = cfs.get_rand_forest_clf()
-		result = clf.predict(line)
-		print("This tweet is %s" % result)
+		single_predicte_forest([line], tf_idf, cfs)

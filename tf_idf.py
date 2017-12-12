@@ -20,16 +20,25 @@ class TfIdf:
 	
 	def get_Y(self):
 		return self.data.get_marks()
-	
-	def get_X_by_vocabulary(self):
-		word_counts = self.count_model.fit_transform(self.data.text)
-		self.features = self.count_model.get_feature_names()
+
+	def get_X_by_vocabulary(self, input_txt=None):
+		if input_txt == None:
+			word_counts = self.count_model.fit_transform(self.data.text)
+			self.features = self.count_model.get_feature_names()
+		else:
+			single_count_model = CountVectorizer(max_features=1000, stop_words="english")
+			word_counts = single_count_model.fit_transform(input_txt)
 		return TfidfTransformer().fit_transform(word_counts)
 
-	def get_X_by_n_gram(self, n):
-		model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1/self.num_of_known_class), max_features=1000, stop_words = "english")
-		counts = model.fit_transform(self.data.text)
-		self.features = model.get_feature_names()
+	def get_X_by_n_gram(self, n, input_txt=None):
+
+		if input_txt == None:
+			model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class),max_features=1000, stop_words="english")
+			counts = model.fit_transform(self.data.text)
+			self.features = model.get_feature_names()
+		else:
+			single_model = CountVectorizer(ngram_range=(n, n),max_features=1000, stop_words="english")
+			counts = single_model.fit_transform(input_txt)
 		return TfidfTransformer().fit_transform(counts)
 	
 	def get_feature_names_of_last_get_X_call(self):
