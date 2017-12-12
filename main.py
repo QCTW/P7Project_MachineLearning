@@ -35,9 +35,9 @@ for (clf, cl_name) in cfs.classifiers:
 
 
 while 1:
-    line = raw_input("Please input a tweet.")
-    if line == 'exit':
-        break
+	line = raw_input("Please input a tweet.")
+	if line == 'exit':
+		break
 	elif len(line) <= 10:
 		print("The tweet is too short, length need be more than 10")
 		continue
