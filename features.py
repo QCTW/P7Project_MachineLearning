@@ -35,7 +35,7 @@ def count_rarity_of_words(text_array):
 		for t in tokens_to_roots:
 			if (len(t.strip())>0) :
 				if (vr.is_low_freq(vocab=t)):
-					low_count+=1
+					low_count+=2
 				elif (vr.is_mid_freq(vocab=t)):
 					mid_count+=1
 # 				else:

@@ -17,16 +17,20 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils.extmath import density
 from sklearn import metrics
 
-from utility import get_unique_value_in_list
-
 class Classify:
 	def __init__(self):
-		self.classifiers = [(self.get_ridge_clf(), "Ridge Classifier"), 
+		self.classifiers = [	(self.get_nearest_centroid(), "Nearest Centroid (aka Rocchio)"),
+		(self.get_multinomial_naive_bayes(), "Naive Bayes"),
+		(self.get_ridge_clf(), "Ridge Classifier"), 
 		(self.get_perceptron_clf(), "Perceptron"),
 		(self.get_passive_aggr_clf(), "Passive-Aggressive"), 
 		(self.get_k_neighbors_clf(), "K Neighbors"),
-		(self.get_rand_forest_clf(), "Random forest")]
+		(self.get_rand_forest_clf(), "Random Forest")]
 
+	def get_multinomial_naive_bayes(self):
+		return MultinomialNB(alpha=.01)
+	def get_nearest_centroid(self):
+		return NearestCentroid()
 	def get_ridge_clf(self):
 		return RidgeClassifier(tol=1e-2, solver="auto")
 	# max_iter and tol are necessary in the new implementation of logistic regression of scikit-learn. 
