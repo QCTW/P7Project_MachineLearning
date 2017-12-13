@@ -17,7 +17,19 @@ def create_csr_matrix(double_array):
     rows = np.array(row_index)
     cols = np.array(col_index)
     np_array = np.array(flat_array)
-    return sp.csr_matrix( (np_array, (rows, cols)),  shape)
+    return sp.csr_matrix( (np_array, (rows, cols)), shape)
+
+def expends(X_small, F_small, X_larger, F_larger):
+    f_larger_set = set(F_larger)
+    csr_new = sp.csr_matrix( (X_small.shape[0], X_larger.shape[1]))
+    for i in range(X_small.shape[0]):
+        for j in range(len(F_small)):
+            f = F_small[j]
+            if(f in f_larger_set):
+                idx = F_larger.index(f)
+                csr_new[i, idx] = X_small.getcol(j)
+
+    return csr_new
 
 def merge_csr_matrix_by_col(csr_m1, csr_m2):
     return sp.hstack((csr_m1, csr_m2))
