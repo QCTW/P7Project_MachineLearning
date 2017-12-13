@@ -14,7 +14,7 @@ console_mode = True if (len(sys.argv)>1 and sys.argv[1]=="-i") else False
 
 #Text analysis algo
 clinton_trump_tweets = "dataset/trump/clinton-trump-tweets_clean.csv"
-tf_idf = TfIdf(clinton_trump_tweets)
+tf_idf = TfIdf(clinton_trump_tweets, 6)
 Y = tf_idf.get_Y()
 Y_labels = tf_idf.get_unique_Y()
 X_top_1000_vocab, F_top_1000_vocab = tf_idf.get_X_by_vocabulary()

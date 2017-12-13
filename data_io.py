@@ -60,8 +60,21 @@ class Data:
 		return (self.X_test, self.y_test)
 	
 	def add_new_data(self, path_to_new_file):
-		#TODO: To load other dataset into text and marks
-		pass
+		f = open(path_to_new_file, 'r')
+		for line in f:
+			one_line = line.strip()
+			if(len(one_line)!=0):
+				self.count+=1
+				index_of_tab = one_line.find('\t')
+				if(index_of_tab>0):
+					first_col = one_line[:index_of_tab]
+					second_col = one_line[index_of_tab+1:].strip()
+					self.text.append(second_col)
+					self.marks.append(first_col)
+					#print("["+first_col+"] "+second_col)
+				else:
+					self.text.append(one_line)
+		f.close()
 
 
 ####################
