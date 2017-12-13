@@ -14,7 +14,7 @@ class TfIdf:
 		self.features = None
 		self.data = Data(clean_data_path)
 		self.num_of_known_class = num_of_class
-		self.max_num_of_features = 2000 #500*num_of_class
+		self.max_num_of_features = 1000 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
@@ -28,6 +28,7 @@ class TfIdf:
 
 	# Return X and feature-names as tuple
 	def get_X_by_vocabulary(self, input_txt=None):
+		#TODO: To filter features by test_word.mean(x,y, 2) or ANOVA
 		print("Counting "+str(self.max_num_of_features)+" normalized vocabularies...")
 		used_model = self.count_model
 		if input_txt != None:
@@ -44,7 +45,7 @@ class TfIdf:
 		used_model = None
 		if input_txt == None:
 			input_txt = self.data.text
-			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class),max_features=self.max_num_of_features, stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), max_features=self.max_num_of_features, stop_words="english")
 		else:
 			used_model = CountVectorizer(ngram_range=(n, n), max_features=self.max_num_of_features, stop_words="english")
 		

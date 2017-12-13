@@ -1,8 +1,7 @@
 # This class is used for loading intermediate output file or raw file as an object
 from sklearn.model_selection import train_test_split
-import numpy as np
-
 from utility import create_csr_matrix
+import numpy as np
 
 class Data:
 	def __init__(self, key_path):
