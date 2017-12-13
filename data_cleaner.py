@@ -2,6 +2,7 @@ import os
 import csv
 import re
 
+
 # to read the data_set contain trump and clinton
 def read_mix_set(filename):
     data = []
@@ -90,6 +91,7 @@ def write_refers(data, write_path):
             tmp_str += '\n'
             output.write(tmp_str)
 
+
 def append_refers(data, write_path):
     with open(write_path, 'a+') as output:
         for line in data:
@@ -98,7 +100,6 @@ def append_refers(data, write_path):
                 tmp_str = tmp_str + '\t'+refer
             tmp_str += '\n'
             output.write(tmp_str)
-
 
 
 raw_file = "dataset/trump/clinton-trump-tweets.csv"
@@ -120,3 +121,23 @@ print(len(data_set_clean_obama))
 append_new_clean_data(data_set_clean_obama, clean_data_path)
 append_refers(refers_obama, refers_path)
 
+data_set_adam = read_other_tweets("dataset/AdamSavage.csv")
+print(len(data_set_adam))
+(data_set_clean_adam, refers_adam) = remove_reference(data_set_adam)
+print(len(data_set_clean_adam))
+append_new_clean_data(data_set_clean_adam, clean_data_path)
+append_refers(refers_adam, refers_path)
+
+data_set_kim = read_other_tweets("dataset/KimKardashian.csv")
+print(len(data_set_kim))
+(data_set_clean_kim, refers_kim) = remove_reference(data_set_kim)
+print(len(data_set_clean_kim))
+append_new_clean_data(data_set_clean_kim, clean_data_path)
+append_refers(refers_kim, refers_path)
+
+data_set_richard = read_other_tweets("dataset/RichardDawkins.csv")
+print(len(data_set_richard))
+(data_set_clean_richard, refers_richard) = remove_reference(data_set_richard)
+print(len(data_set_clean_richard))
+append_new_clean_data(data_set_clean_richard, clean_data_path)
+append_refers(refers_richard, refers_path)
