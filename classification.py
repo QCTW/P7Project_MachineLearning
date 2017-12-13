@@ -16,6 +16,8 @@ from sklearn.neighbors import NearestCentroid
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.utils.extmath import density
 from sklearn import metrics
+from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import train_test_split
 
 class Classify:
 	def __init__(self):
@@ -77,6 +79,51 @@ def benchmark(clf, x_train, y_train, x_test, y_test, y_labels):
 
 	clf_descr = str(clf).split('(')[0]
 	return clf_descr, score, train_time, test_time
+
+
+# the code of the professor in # Ex4.5
+def find_best_k_clf(x_train, y_train, x_test, y_test, algo_type, k_min, step_size, k_max, n_fold = 5):
+    if k_min <= k_max and (algo_type == "knn" or algo_type == "rfc"):
+        print("Divide the data set into %d parts for validation cross..." % n_fold)
+        skf = StratifiedKFold(n_splits=n_fold)
+        best_k = 1
+        best_score = 0
+
+        for k in range(k_min, k_max, step_size):
+            score_sum = 0.0
+
+            for train_idx, test_idx in skf.split(x_train, y_train):
+                X_subtrain, X_subtest = x_train[train_idx], x_train[test_idx]
+                y_subtrain, y_subtest = y_train[train_idx], y_train[test_idx]
+                if algo_type == "rfc":
+                    clf = RandomForestClassifier(n_estimators=k)
+                else:
+                    clf = KNeighborsClassifier(n_neighbors=k)
+                clf.fit(X_subtrain, y_subtrain)
+                score = clf.score(X_subtest, y_subtest)
+                score_sum += score
+
+            # get the average across splits
+            score_sum /= n_fold
+            print("For k", k, "Average_score is", score_sum)
+            if score_sum > best_score:
+                best_score = score_sum
+                best_k = k
+
+        # re-launch on the whole dataset
+        if algo_type == "rfc":
+            clf_total = RandomForestClassifier(n_estimators=best_k)
+        else:
+            clf_total = KNeighborsClassifier(n_neighbors=best_k)
+        clf_total.fit(x_train, y_train)
+        score = clf_total.score(x_test, y_test)
+
+        # for example "Best K is 1, with a score of 0.939..."
+        print("Best K is", best_k, "with a score of", score)
+
+    else:
+        print("Error, k_min greater than k_max")
+
 
 ####################
 # Unit test section

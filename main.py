@@ -2,7 +2,7 @@ from tf_idf import TfIdf
 from data_io import Data
 from utility import merge_csr_matrix_by_col, expends
 from features import count_all_capital_words, count_rarity_of_words
-from classification import benchmark, Classify
+from classification import benchmark, Classify, find_best_k_clf
 
 import sys
 import sklearn
@@ -34,6 +34,8 @@ x_test, y_test = tf_idf.data.get_test_data()
 results = []
 for (clf, cl_name) in cfs.classifiers:
 	results.append(benchmark(clf, x_train, y_train, x_test, y_test, Y_labels))
+
+# find_best_k_clf(x_train, y_train, x_test, y_test, "knn", 5, 10, 60, n_fold = 5)
 
 if( not console_mode):
 	# make some plots
