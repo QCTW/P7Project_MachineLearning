@@ -1,2 +1,2 @@
-pip install -U numpy scipy scikit-learn
-pip install -U nltk
+pip3 install -U numpy scipy scikit-learn
+pip3 install -U nltk

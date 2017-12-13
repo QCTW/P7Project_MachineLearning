@@ -7,6 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from data_io import Data
+from utility import get_unique_value_in_list
 
 class TfIdf:
 	def __init__(self, clean_data_path, num_of_class=2):
@@ -20,30 +21,36 @@ class TfIdf:
 	
 	def get_Y(self):
 		return self.data.get_marks()
-
-	def get_X_by_vocabulary(self, input_txt=None):
-		if input_txt == None:
-			word_counts = self.count_model.fit_transform(self.data.text)
-			self.features = self.count_model.get_feature_names()
-		else:
-			single_count_model = CountVectorizer(max_features=1000, stop_words="english")
-			word_counts = single_count_model.fit_transform(input_txt)
-		return TfidfTransformer().fit_transform(word_counts)
-
-	def get_X_by_n_gram(self, n, input_txt=None):
-
-		if input_txt == None:
-			model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class),max_features=1000, stop_words="english")
-			counts = model.fit_transform(self.data.text)
-			self.features = model.get_feature_names()
-		else:
-			single_model = CountVectorizer(ngram_range=(n, n),max_features=1000, stop_words="english")
-			counts = single_model.fit_transform(input_txt)
-		return TfidfTransformer().fit_transform(counts)
 	
-	def get_feature_names_of_last_get_X_call(self):
-		return self.features
+	def get_unique_Y(self):
+		return get_unique_value_in_list(self.data.get_marks())
 
+	# Return X and feature-names as tuple
+	def get_X_by_vocabulary(self, input_txt=None):
+		print("Counting 1000 normalized vocabularies...")
+		used_model = self.count_model
+		if input_txt != None:
+			used_model = CountVectorizer(max_features=1000, stop_words="english")
+		else:
+			input_txt = self.data.text
+
+		word_counts = used_model.fit_transform(input_txt)
+		return (TfidfTransformer().fit_transform(word_counts), used_model.get_feature_names())
+
+	# Return X and feature-names as tuple
+	def get_X_by_n_gram(self, n, input_txt=None):
+		print("Counting 1000 normalized "+str(n)+"-grams...")
+		used_model = None
+		if input_txt == None:
+			input_txt = self.data.text
+			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class),max_features=1000, stop_words="english")
+		else:
+			used_model = CountVectorizer(ngram_range=(n, n), max_features=1000, stop_words="english")
+		
+		counts = used_model.fit_transform(input_txt)
+		return (TfidfTransformer().fit_transform(counts), used_model.get_feature_names())
+
+	# Used for analysis content only
 	def get_vocabulary_counts(self):
 		word_counts = self.count_model.fit_transform(self.data.text)
 		vocabs = self.count_model.get_feature_names()

@@ -1,3 +1,4 @@
+from nltk.stem.porter import PorterStemmer
 
 class VocabularyRarity:
 	def __init__(self):
@@ -21,10 +22,11 @@ def read_from_file(fpath):
 			if(index_of_dot>0):
 				first_col = one_line[:index_of_dot].strip()
 				vocabs.append(first_col)
-				print(first_col)
 	
+	stemmer = PorterStemmer()
+	vocabs_to_roots = [stemmer.stem(t) for t in vocabs]
 	f.close()
-	return set(vocabs)
+	return set(vocabs_to_roots)
 
 ####################
 # Unit test section

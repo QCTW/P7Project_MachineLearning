@@ -42,7 +42,7 @@ class Classify:
 
 # Code Ref from scikit-learn : 
 # http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html#sphx-glr-auto-examples-text-document-classification-20newsgroups-py
-def benchmark(clf, x_train, y_train, x_test, y_test):
+def benchmark(clf, x_train, y_train, x_test, y_test, y_labels):
 	print('=' * 80)
 	print("Training by: "+str(clf))
 	
@@ -61,7 +61,7 @@ def benchmark(clf, x_train, y_train, x_test, y_test):
 	print("Accuracy:      %0.3f" % score)
 	
 	print("Classification report:")
-	print(metrics.classification_report(y_test, pred, target_names=get_unique_value_in_list(y_test)))
+	print(metrics.classification_report(y_test, pred, target_names=y_labels))
 	
 	print("Confusion matrix:")
 	print(metrics.confusion_matrix(y_test, pred))
