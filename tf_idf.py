@@ -14,10 +14,11 @@ class TfIdf:
 		self.features = None
 		self.data = Data(clean_data_path)
 		self.num_of_known_class = num_of_class
+		self.max_num_of_features = 1000 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
-		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=1000, stop_words = "english")
-		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_features=1000;max_df="+str(float(1/num_of_class))+";stop_words='english'")
+		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
+		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_features="+str(self.max_num_of_features)+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
 	
 	def get_Y(self):
 		return self.data.get_marks()
@@ -27,10 +28,11 @@ class TfIdf:
 
 	# Return X and feature-names as tuple
 	def get_X_by_vocabulary(self, input_txt=None):
-		print("Counting 1000 normalized vocabularies...")
+		#TODO: To filter features by test_word.mean(x,y, 2) or ANOVA
+		print("Counting "+str(self.max_num_of_features)+" normalized vocabularies...")
 		used_model = self.count_model
 		if input_txt != None:
-			used_model = CountVectorizer(max_features=1000, stop_words="english")
+			used_model = CountVectorizer(max_features=self.max_num_of_features, stop_words="english")
 		else:
 			input_txt = self.data.text
 
@@ -39,13 +41,13 @@ class TfIdf:
 
 	# Return X and feature-names as tuple
 	def get_X_by_n_gram(self, n, input_txt=None):
-		print("Counting 1000 normalized "+str(n)+"-grams...")
+		print("Counting "+str(self.max_num_of_features)+" normalized "+str(n)+"-grams...")
 		used_model = None
 		if input_txt == None:
 			input_txt = self.data.text
-			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class),max_features=1000, stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), max_features=self.max_num_of_features, stop_words="english")
 		else:
-			used_model = CountVectorizer(ngram_range=(n, n), max_features=1000, stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), max_features=self.max_num_of_features, stop_words="english")
 		
 		counts = used_model.fit_transform(input_txt)
 		return (TfidfTransformer().fit_transform(counts), used_model.get_feature_names())

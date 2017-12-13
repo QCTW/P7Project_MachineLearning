@@ -14,14 +14,16 @@ console_mode = True if (len(sys.argv)>1 and sys.argv[1]=="-i") else False
 
 #Text analysis algo
 clinton_trump_tweets = "dataset/trump/clinton-trump-tweets_clean.csv"
-tf_idf = TfIdf(clinton_trump_tweets)
+tf_idf = TfIdf(clinton_trump_tweets, 6)
 Y = tf_idf.get_Y()
 Y_labels = tf_idf.get_unique_Y()
 X_top_1000_vocab, F_top_1000_vocab = tf_idf.get_X_by_vocabulary()
 X_top_1000_bigram, F_top_1000_bigram = tf_idf.get_X_by_n_gram(2)
+#X_top_1000_trigram, F_top_1000_trigram = tf_idf.get_X_by_n_gram(3)
 X_all_capital_count = count_all_capital_words(tf_idf.data.text)
 X_rarity_of_words = count_rarity_of_words(tf_idf.data.text)
 X_main = merge_csr_matrix_by_col(X_top_1000_vocab, X_top_1000_bigram)
+#X_main = merge_csr_matrix_by_col(X_main, X_top_1000_trigram)
 X_main = merge_csr_matrix_by_col(X_main, X_all_capital_count)
 X_main = merge_csr_matrix_by_col(X_main, X_rarity_of_words)
 print("Total (Records, Features): "+str(X_main.shape))
