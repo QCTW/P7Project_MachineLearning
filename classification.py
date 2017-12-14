@@ -41,10 +41,10 @@ class Classify:
 		return Perceptron(max_iter=50, tol=None)
 	def get_passive_aggr_clf(self):
 		return PassiveAggressiveClassifier(max_iter=50, tol=None)
-	def get_k_neighbors_clf(self, num_of_neigh=50):
+	def get_k_neighbors_clf(self, num_of_neigh=5):
 		return KNeighborsClassifier(n_neighbors=num_of_neigh)
 	def get_rand_forest_clf(self):
-		return RandomForestClassifier(n_estimators=100)
+		return RandomForestClassifier(n_estimators=200)
 
 # Code Ref from scikit-learn : 
 # http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html#sphx-glr-auto-examples-text-document-classification-20newsgroups-py
@@ -88,7 +88,8 @@ def find_best_k_clf(x_train, y_train, x_test, y_test, algo_type, k_min, step_siz
         skf = StratifiedKFold(n_splits=n_fold)
         best_k = 1
         best_score = 0
-
+        print(x_train.shape[0])
+        print(y_train.shape[0])
         for k in range(k_min, k_max, step_size):
             score_sum = 0.0
 
