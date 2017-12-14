@@ -2,7 +2,7 @@
 import numpy as np
 import re
 
-from scipy.stats import ttest_ind
+from sklearn.feature_selection import f_classif
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
@@ -14,10 +14,11 @@ class TfIdf:
 		self.features = None
 		self.data = Data(clean_data_path)
 		self.num_of_known_class = num_of_class
-		self.max_num_of_features = 1500 #500*num_of_class
+		self.max_num_of_features = 1000 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
+		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
 		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_features="+str(self.max_num_of_features)+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
 	
 	def get_Y(self):
@@ -37,6 +38,13 @@ class TfIdf:
 			input_txt = self.data.text
 
 		word_counts = used_model.fit_transform(input_txt)
+		
+		#p_values = f_classif(word_counts, self.data.get_marks())
+		#p_list = p_values[1].tolist()
+		#for e in p_list:
+			#print(e)
+		#p_list.sort(key=lambda x: x[1])
+		#print(p_list)
 		return (TfidfTransformer().fit_transform(word_counts), used_model.get_feature_names())
 
 	# Return X and feature-names as tuple
@@ -72,7 +80,7 @@ class TfIdf:
 ####################
 #test = TfIdf("dataset/trump/clinton-trump-tweets_clean.csv", 2) #We known that there are 3 categories of data in the files
 #test.get_vocabulary_counts()
-#print(test.get_X_by_vocabulary())
+#test.get_X_by_vocabulary()
 #(bigrams, terms) = test.get_X_by_n_gram(2)
 #for i in range(bigrams.shape[1]):
 #	tf_sum = bigrams.getcol(i).sum()

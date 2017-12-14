@@ -77,7 +77,8 @@ def single_predicte_forest(input_txt, tf_idf, cfs, X_top_1000_vocab, F_top_1000_
 	clf = cfs.get_rand_forest_clf()
 	clf.fit(x_train, y_train)
 	res = clf.predict(X_single)
-	print("[!] Your text looks like: "+str(res[0])+" by Random Forest classifier.")
+	proba = clf.predict_proba(X_single)
+	print("[!] Your text looks "+str(proba)+" like: "+str(res[0])+" by Random Forest classifier.")
 
 if(console_mode):
 	print('=' * 80)

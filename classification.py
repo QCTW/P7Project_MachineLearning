@@ -44,7 +44,7 @@ class Classify:
 	def get_k_neighbors_clf(self, num_of_neigh=50):
 		return KNeighborsClassifier(n_neighbors=num_of_neigh)
 	def get_rand_forest_clf(self):
-		return RandomForestClassifier(n_estimators=100)
+		return RandomForestClassifier(n_estimators=200)
 
 # Code Ref from scikit-learn : 
 # http://scikit-learn.org/stable/auto_examples/text/document_classification_20newsgroups.html#sphx-glr-auto-examples-text-document-classification-20newsgroups-py
