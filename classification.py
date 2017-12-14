@@ -88,8 +88,7 @@ def find_best_k_clf(x_train, y_train, x_test, y_test, algo_type, k_min, step_siz
         skf = StratifiedKFold(n_splits=n_fold)
         best_k = 1
         best_score = 0
-        print(x_train.shape[0])
-        print(y_train.shape[0])
+
         for k in range(k_min, k_max, step_size):
             score_sum = 0.0
 
