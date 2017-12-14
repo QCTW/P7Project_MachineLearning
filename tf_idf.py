@@ -14,7 +14,7 @@ class TfIdf:
 		self.features = None
 		self.data = Data(clean_data_path)
 		self.num_of_known_class = num_of_class
-		self.max_num_of_features = 1000 #500*num_of_class
+		self.max_num_of_features = 1500 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
