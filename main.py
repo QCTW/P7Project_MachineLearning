@@ -64,6 +64,13 @@ if( not console_mode):
 	
 	plt.show()
 ########## Console Interactive Mode ##########
+def find_index_from_labels(label, labels):
+	for i in range(len(labels)):
+		if(label == labels[i]):
+			return i
+	print("Unable to find class label: "+label)
+	return -1
+
 def single_predicte_forest(input_txt, tf_idf, cfs, X_top_1000_vocab, F_top_1000_vocab, X_top_1000_bigram, F_top_1000_bigram):
 	X_top_vocab, F_top_vocab = tf_idf.get_X_by_vocabulary(input_txt)
 	X_top_1000_vocab = expends(X_top_vocab, F_top_vocab, X_top_1000_vocab, F_top_1000_vocab)
@@ -75,10 +82,11 @@ def single_predicte_forest(input_txt, tf_idf, cfs, X_top_1000_vocab, F_top_1000_
 	X_single = merge_csr_matrix_by_col(X_single, X_all_capital_count)
 	X_single = merge_csr_matrix_by_col(X_single, X_rarity_of_words)
 	clf = cfs.get_rand_forest_clf()
-	clf.fit(x_train, y_train)
+	#clf.fit(x_train, y_train)
 	res = clf.predict(X_single)
-	proba = clf.predict_proba(X_single)
-	print("[!] Your text looks "+str(proba)+" like: "+str(res[0])+" by Random Forest classifier.")
+	#idx = find_index_from_labels(res, Y_labels)
+	#proba = clf.predict_proba(X_single)
+	print("[!] Your text looks like: "+str(res[0])+" by Random Forest classifier.")
 
 if(console_mode):
 	print('=' * 80)
