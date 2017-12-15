@@ -30,9 +30,9 @@ class Classify:
 		( RandomForestClassifier(n_estimators=200), "Random Forest")]
 
 	def get_multinomial_naive_bayes(self):
-		return self.classifiers[0][0]
-	def get_nearest_centroid(self):
 		return self.classifiers[1][0]
+	def get_nearest_centroid(self):
+		return self.classifiers[0][0]
 	def get_ridge_clf(self):
 		return self.classifiers[2][0]
 	# max_iter and tol are necessary in the new implementation of logistic regression of scikit-learn. 

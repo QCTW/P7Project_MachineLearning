@@ -10,17 +10,23 @@ from data_io import Data
 from utility import get_unique_value_in_list, merge_csr_matrix_by_col
 
 class TfIdf:
-	def __init__(self, clean_data_path, num_of_class=2):
+	def __init__(self, clean_data_path="", num_of_class=2):
 		self.vocab_features = None
 		self.n_gram_features = None
-		self.data = Data(clean_data_path)
+		if(len(clean_data_path)>0):
+			self.data = Data(clean_data_path)
+		else:
+			self.data = None
 		self.num_of_known_class = num_of_class
 		self.max_num_of_features = 1500 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
 		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
-		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
+		print("TfIdf created;load file shape;"+str((self.data.shape() if self.data != None else 0))+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
+	
+	def set_data(self, processed_data):
+		self.data = processed_data
 	
 	def get_Y(self):
 		return self.data.get_marks()
