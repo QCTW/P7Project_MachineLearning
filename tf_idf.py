@@ -22,7 +22,8 @@ class TfIdf:
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
-		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
+		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
+		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class))
 		print("TfIdf created;load file shape;"+str((self.data.shape() if self.data != None else 0))+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
 	
 	def set_data(self, processed_data):
@@ -39,7 +40,8 @@ class TfIdf:
 		#TODO: To filter features by test_word.mean(x,y, 2) or ANOVA
 		used_model = self.count_model
 		if input_txt != None:
-			used_model = CountVectorizer(stop_words="english", vocabulary=self.vocab_features)
+			#used_model = CountVectorizer(stop_words="english", vocabulary=self.vocab_features)
+			used_model = CountVectorizer(vocabulary=self.vocab_features)
 		else:
 			input_txt = self.data.text
 
@@ -67,7 +69,7 @@ class TfIdf:
 			if csr_new==None:
 				csr_new = original_x.getcol(idx)
 			else:
-				csr_new = merge_csr_matrix_by_col( csr_new, original_x.getcol(idx))
+				csr_new = merge_csr_matrix_by_col(csr_new, original_x.getcol(idx))
 		
 		return csr_new, names_list
 
@@ -76,9 +78,11 @@ class TfIdf:
 		used_model = None
 		if input_txt == None:
 			input_txt = self.data.text
-			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), stop_words="english")
+			#used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class))
 		else:
-			used_model = CountVectorizer(ngram_range=(n, n), stop_words="english", vocabulary=self.n_gram_features)
+			#used_model = CountVectorizer(ngram_range=(n, n), stop_words="english", vocabulary=self.n_gram_features)
+			used_model = CountVectorizer(ngram_range=(n, n), vocabulary=self.n_gram_features)
 		
 		counts = used_model.fit_transform(input_txt)
 		csr_new = counts

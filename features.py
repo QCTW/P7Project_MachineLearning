@@ -5,6 +5,25 @@ from nltk.stem.porter import PorterStemmer
 from utility import create_csr_matrix
 from vocabulary_rarity import VocabularyRarity
 
+def count_imperative_sentence(text_array):
+	pass
+
+def count_punctuation(text_array):
+	count_list = []
+	total = 0
+	for t in text_array:
+		#To count the number of terms in FULL capital in each text t
+		t.replace('\n', '\t')
+		#res = re.findall(r"[" + string.punctuation + "]", t)
+		res = re.findall(r"[,]", t)
+		t = re.sub(r"[" + string.punctuation + "]", "", t)
+		tokens = t.split(' ')
+		for word in tokens:
+			if (len(word.strip())>0) :
+				total+=1
+		count_list.append([len(res)/total]) #Appends a one element array in each element of count_list
+	return create_csr_matrix(count_list)
+
 def count_all_capital_words(text_array):
 	print("Counting all capital words...")
 	count_list = []
@@ -50,8 +69,9 @@ def count_rarity_of_words(text_array):
 ####################
 # Unit test section
 ####################
+#test=["The astronomer, perhaps, at this point, took refuge in the suggestion of non luminosity; and here analogy was suddenly let fall."]
 #test=["Franchising America adorn", "MAKE U.S inane again", "MAKE Shanghai Sublime AGAIN", "DONALD.J.TRUMP"]
-#csrm = count_all_capital_words(test)
+#csrm = count_punctuation(test)
 #print(csrm.todense())
 #csrm = count_rarity_of_words(test)
 #print(csrm.todense())
