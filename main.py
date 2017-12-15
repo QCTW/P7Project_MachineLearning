@@ -3,12 +3,14 @@ from data_io import Data
 from utility import merge_csr_matrix_by_col, expends
 from features import count_all_capital_words, count_rarity_of_words
 from classification import benchmark, Classify, find_best_k_clf
+from data_cleaner import clean
 
-import sys
 import sklearn
+import nltk
+import sys
 import numpy as np
 import matplotlib.pyplot as plt
-print("FAN & HSIEH's ML Project. Uses scikit-learn version: "+sklearn.__version__)
+print("FAN & HSIEH's ML Project. Uses Scikit-learn "+sklearn.__version__+" NLTK "+nltk.__version__)
 
 console_mode = True if (len(sys.argv)>1 and sys.argv[1]=="-i") else False
 
@@ -96,7 +98,8 @@ if(console_mode):
 		if len(line) < 20:
 			line = input("[!] Your text is too short (<20), please try again:\n")
 		else:
-			single_predicte_forest([line], tf_idf, cfs, X_top_1000_vocab, F_top_1000_vocab, X_top_1000_bigram, F_top_1000_bigram)
+			clean_line = clean(line)
+			single_predicte_forest([clean_line], tf_idf, cfs, X_top_1000_vocab, F_top_1000_vocab, X_top_1000_bigram, F_top_1000_bigram)
 			line = input("[?] Please input some text (more than 20 words):\n")
 	
 	print("[!] Bye!")
