@@ -1,4 +1,4 @@
-
+import scipy.sparse as sp
 import numpy as np
 import re
 
@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from data_io import Data
-from utility import get_unique_value_in_list
+from utility import get_unique_value_in_list, merge_csr_matrix_by_col
 
 class TfIdf:
 	def __init__(self, clean_data_path, num_of_class=2):
@@ -17,8 +17,8 @@ class TfIdf:
 		self.max_num_of_features = 1500 #500*num_of_class
 		#min_df set to 2 to avoid unique id sequence
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
-		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
-		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
+		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
+		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
 		print("TfIdf created;load file shape;"+str(self.data.shape())+";max_features="+str(self.max_num_of_features)+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
 	
 	def get_Y(self):
@@ -30,7 +30,6 @@ class TfIdf:
 	# Return X and feature-names as tuple
 	def get_X_by_vocabulary(self, input_txt=None):
 		#TODO: To filter features by test_word.mean(x,y, 2) or ANOVA
-		print("Counting "+str(self.max_num_of_features)+" normalized vocabularies...")
 		used_model = self.count_model
 		if input_txt != None:
 			used_model = CountVectorizer(max_features=self.max_num_of_features, stop_words="english")
@@ -38,27 +37,42 @@ class TfIdf:
 			input_txt = self.data.text
 
 		word_counts = used_model.fit_transform(input_txt)
+		(csr_new, names_list) = self.filter_out_most_identical_features(word_counts, used_model, "vocabularies")
+		return (TfidfTransformer().fit_transform(csr_new), names_list)
+	
+	def filter_out_most_identical_features(self, original_x, used_model, general_name="features"):
+		print("Selecting "+str(self.max_num_of_features)+" most iconic "+general_name+" from "+str(original_x.shape[1])+"...")
+		p_values = f_classif(original_x, self.data.get_marks())
+		p_list = p_values[1].tolist()
+		p_idx_list = []
+		for idx in range(len(p_list)):
+			p_idx_list.append( (p_list[idx], idx) )
+		p_idx_list.sort(key=lambda tup: float(tup[0]))
+		names = used_model.get_feature_names()
+		names_list = []
+		csr_new = None
+		for (v, idx) in p_idx_list[:self.max_num_of_features]:
+			#print("p("+names[idx]+")="+str(v))
+			names_list.append(names[idx])
+			if csr_new==None:
+				csr_new = original_x.getcol(idx)
+			else:
+				csr_new = merge_csr_matrix_by_col( csr_new, original_x.getcol(idx))
 		
-		#p_values = f_classif(word_counts, self.data.get_marks())
-		#p_list = p_values[1].tolist()
-		#for e in p_list:
-			#print(e)
-		#p_list.sort(key=lambda x: x[1])
-		#print(p_list)
-		return (TfidfTransformer().fit_transform(word_counts), used_model.get_feature_names())
+		return csr_new, names_list
 
 	# Return X and feature-names as tuple
 	def get_X_by_n_gram(self, n, input_txt=None):
-		print("Counting "+str(self.max_num_of_features)+" normalized "+str(n)+"-grams...")
 		used_model = None
 		if input_txt == None:
 			input_txt = self.data.text
-			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), max_features=self.max_num_of_features, stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), min_df=2, max_df=float(1 / self.num_of_known_class), stop_words="english")
 		else:
-			used_model = CountVectorizer(ngram_range=(n, n), max_features=self.max_num_of_features, stop_words="english")
+			used_model = CountVectorizer(ngram_range=(n, n), stop_words="english")
 		
 		counts = used_model.fit_transform(input_txt)
-		return (TfidfTransformer().fit_transform(counts), used_model.get_feature_names())
+		(csr_new, names_list) = self.filter_out_most_identical_features(counts, used_model, (str(n)+"-grams"))
+		return (TfidfTransformer().fit_transform(csr_new), names_list)
 
 	# Used for analysis content only
 	def get_vocabulary_counts(self):
@@ -80,7 +94,7 @@ class TfIdf:
 ####################
 #test = TfIdf("dataset/trump/clinton-trump-tweets_clean.csv", 2) #We known that there are 3 categories of data in the files
 #test.get_vocabulary_counts()
-#test.get_X_by_vocabulary()
+#print(test.get_X_by_vocabulary())
 #(bigrams, terms) = test.get_X_by_n_gram(2)
 #for i in range(bigrams.shape[1]):
 #	tf_sum = bigrams.getcol(i).sum()
