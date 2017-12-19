@@ -1,12 +1,19 @@
 import re
 import string
+import nltk
 
 from nltk.stem.porter import PorterStemmer
 from utility import create_csr_matrix
 from vocabulary_rarity import VocabularyRarity
 
 def count_imperative_sentence(text_array):
-	pass
+	nltk.download('averaged_perceptron_tagger')
+	for t in text_array:
+		t.replace('\n', '\t')
+		phrases = re.split(r"[\.\?\!]\s+", t)#re.compile("[A-Za-z0-9, ]+[.?!]+ ").split(t)
+		for f in phrases:
+			print(f)
+			nltk.pos_tag(f)
 
 def count_punctuation(text_array):
 	count_list = []
@@ -69,6 +76,8 @@ def count_rarity_of_words(text_array):
 ####################
 # Unit test section
 ####################
+#test=["This is a phrase. And 2nd one... 3rd one. Make U.S great again! More ,and more? no,no,no..."]
+#count_imperative_sentence(test)
 #test=["The astronomer, perhaps, at this point, took refuge in the suggestion of non luminosity; and here analogy was suddenly let fall."]
 #test=["Franchising America adorn", "MAKE U.S inane again", "MAKE Shanghai Sublime AGAIN", "DONALD.J.TRUMP"]
 #csrm = count_punctuation(test)

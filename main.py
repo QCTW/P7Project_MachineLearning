@@ -10,7 +10,7 @@ import nltk
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
-print("FAN & HSIEH's ML Project. Uses Scikit-learn "+sklearn.__version__+" NLTK "+nltk.__version__)
+print("FAN & HSIEH's ML Project. Uses Scikit-learn-"+sklearn.__version__+" NLTK-"+nltk.__version__)
 
 console_mode = True if (len(sys.argv)>1 and sys.argv[1]=="-i") else False
 
@@ -83,12 +83,12 @@ def single_predicte_forest(input_txt, tf_idf, cfs, X_top_1000_vocab, F_top_1000_
 	X_single = merge_csr_matrix_by_col(X_top_1000_vocab, X_top_1000_bigram)
 	X_single = merge_csr_matrix_by_col(X_single, X_all_capital_count)
 	X_single = merge_csr_matrix_by_col(X_single, X_rarity_of_words)
-	clf = cfs.get_rand_forest_clf()
+	clf = cfs.get_ridge_clf()
 	#clf.fit(x_train, y_train)
 	res = clf.predict(X_single)
 	#idx = find_index_from_labels(res, Y_labels)
 	#proba = clf.predict_proba(X_single)
-	print("[!] Your text looks like: "+str(res[0])+" by Random Forest classifier.")
+	print("[!] Your text looks like: "+str(res[0])+" by "+cfs.classifiers[2][1]+".")
 
 if(console_mode):
 	print('=' * 80)
