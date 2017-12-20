@@ -39,6 +39,25 @@ results = []
 for (clf, cl_name) in cfs.classifiers:
 	results.append(benchmark(clf, x_train, y_train, x_test, y_test, Y_labels))
 
+all_feature_names = tf_idf.vocab_features+tf_idf.n_gram_features+["Capital Words","Difficult Vocabs","Med-difficult Vocabs"]
+all_features = []
+c = 0
+for n in cfs.classifiers[6][0].feature_importances_:
+	all_features.append((c, n))
+	c+=1
+
+all_features.sort(key=lambda tup: float(tup[1]), reverse=True)
+print('=' * 80)
+print("Top 100 important features by "+cfs.classifiers[6][1]+": ")
+c = 0
+out = ""
+for (i, n) in all_features[:100]:
+	c+=1
+	out += "\""+all_feature_names[i] + "\":"+"{0:.4f}".format(n)+" "
+	if(c%5 == 0):
+		print(out)
+		out = ""
+print('=' * 80)
 # find_best_k_clf(x_train, y_train, x_test, y_test, "knn", 5, 10, 60, n_fold = 5)
 
 if( not console_mode):

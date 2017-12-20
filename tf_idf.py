@@ -24,7 +24,7 @@ class TfIdf:
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
 		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class))
-		print("TfIdf created;load file shape;"+str((self.data.shape() if self.data != None else 0))+";max_df="+str(float(1/num_of_class))+";stop_words='english'")
+		print("TfIdf created;load file shape;"+str((self.data.shape() if self.data != None else 0))+";max_df="+str(float(1/num_of_class)))
 	
 	def set_data(self, processed_data):
 		self.data = processed_data
