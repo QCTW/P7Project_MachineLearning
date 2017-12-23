@@ -53,7 +53,8 @@ c = 0
 out = ""
 for (i, n) in all_features[:100]:
 	c+=1
-	out += "\""+all_feature_names[i] + "\":"+"{0:.4f}".format(n)+" "
+	out += "["+all_feature_names[i] + "] "
+	#out += "\""+all_feature_names[i] + "\":"+"{0:.4f}".format(n)+" "
 	if(c%5 == 0):
 		print(out)
 		out = ""
