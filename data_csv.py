@@ -19,8 +19,9 @@ class CsvData:
 			reader = csv.DictReader(csv_file)
 			for line in reader:
 				self.count += 1
-				self.text.append(line['text'])
+				self.text.append(line['comment_text'])
 				self.ids.append(line['id'])
+				print(str(type(line))+":"+line)
 				if "author" in line:
 					self.marks.append(line['author'])
 
