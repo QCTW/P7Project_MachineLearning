@@ -2,10 +2,10 @@
 from sklearn.model_selection import train_test_split
 from utility import create_csr_matrix
 import numpy as np
+import pandas as pd
 
 class Data:
 	def __init__(self, key_path):
-		f = open(key_path, 'r')
 		self.text = []
 		self.marks = []
 		self.status = False
@@ -14,26 +14,39 @@ class Data:
 		self.X_test = None
 		self.y_train = None
 		self.y_test = None
-		for line in f:
-			one_line = line.strip()
-			if(len(one_line)!=0):
-				self.count+=1
-				index_of_tab = one_line.find('\t')
-				if(index_of_tab>0):
-					first_col = one_line[:index_of_tab]
-					second_col = one_line[index_of_tab+1:].strip()
-					self.text.append(second_col)
-					self.marks.append(first_col)
-					#print("["+first_col+"] "+second_col)
-				else:
-					self.text.append(one_line)
-		f.close()
+		if(len(key_path)>0):
+			f = open(key_path, 'r')
+			for line in f:
+				one_line = line.strip()
+				if(len(one_line)!=0):
+					self.count+=1
+					index_of_tab = one_line.find('\t')
+					if(index_of_tab>0):
+						first_col = one_line[:index_of_tab]
+						second_col = one_line[index_of_tab+1:].strip()
+						self.text.append(second_col)
+						self.marks.append(first_col)
+						#print("["+first_col+"] "+second_col)
+					else:
+						self.text.append(one_line)
+			f.close()
 		if(len(self.text)!=len(self.marks)):
-			raise ValueError("Text X has different size ("+len(self.text)+") than Marks Y ("+len(self.marks)+")! Break-line must be removed from each line of text.")
+			raise ValueError("Text X has different size ("+str(len(self.text))+") than Marks Y ("+str(len(self.marks))+")! Break-line must be removed from each line of text.")
 		else:
 			if(self.count>0):
 				self.status = True
 	
+	def set_text_and_mark_from_dataframe(self, dataframe, x_col_name, y_col_name):
+		self.text = dataframe[x_col_name].values.astype('U').tolist()
+		self.marks = dataframe[y_col_name].values.astype('U').tolist()
+	
+	def set_text_and_mark(self, txt_list, mark_list):
+		if(len(txt_list)==len(mark_list)):
+			self.text = txt_list
+			self.marks = mark_list
+		else:
+			raise ValueError("Unable to set_text_and_mark(): Text list and mark list are not the same size!")
+
 	def get_marks(self):
 		return np.array(self.marks)
 	

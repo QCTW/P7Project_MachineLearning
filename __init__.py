@@ -1,1 +1,1 @@
-__all__ = ["data_io", "data_cleaner", "spider", "classification", "tf_idf", "features"]
+__all__ = ["data_io", "data_cleaner", "spider", "classification", "tf_idf", "features", "french_stemmer"]

@@ -10,7 +10,7 @@ from data_io import Data
 from utility import get_unique_value_in_list, merge_csr_matrix_by_col
 
 class TfIdf:
-	def __init__(self, clean_data_path="", num_of_class=2):
+	def __init__(self, clean_data_path="", num_of_class=2, encode="utf-8", tokenizer=None):
 		self.vocab_features = None
 		self.n_gram_features = None
 		if(len(clean_data_path)>0):
@@ -23,7 +23,7 @@ class TfIdf:
 		#max_df set to float depends on how many categories of data we have -- the more categories we have, the smaller max_df will be.
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), max_features=self.max_num_of_features, stop_words = "english")
 		#self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), stop_words = "english")
-		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class))
+		self.count_model = CountVectorizer(min_df=2, max_df=float(1/num_of_class), encoding=encode, tokenizer=tokenizer)
 		print("TfIdf created;load file shape;"+str((self.data.shape() if self.data != None else 0))+";max_df="+str(float(1/num_of_class)))
 	
 	def set_data(self, processed_data):

@@ -1,0 +1,8 @@
+TreeTagger Installation:
+- Download the package
+  http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/
+
+- Install python treetagger wrapper
+  sudo pip3 install treetaggerwrapper
+
+
